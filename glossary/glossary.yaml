@@ -1,0 +1,28 @@
+People:
+  William Brown:
+    description: William Brown is a machine learning researcher based in New York City, with deep expertise in language models, sequential prediction, and agentic reinforcement learning. He holds a PhD in Computer Science from Columbia University, where he was co-advised by renowned theorists Christos Papadimitriou and Tim Roughgarden. His academic journey began at the University of Pennsylvania, where he studied computer science and philosophy, followed by a master's in data science. He was previously a member of the Machine Learning Research group at Morgan Stanley, and has done research at AWS, Two Sigma, MongoDB, and AmFam. He joined Prime Intellect as a researcher to help create open-source AGI, focusing on decentralized training and inference, agentic RL systems, and contributing to the development of truly open-source, decentralized artificial general intelligence.
+    misspellings: []
+    nicknames: [Will, Will Brown]
+    usernames: []
+    roles: [Researcher at Prime Intellect, Instructor in the Agent Engineering course, PhD in Computer Science, Former ML Researcher at Morgan Stanley]
+
+  Kyle Corbitt:
+    description: Kyle Corbitt is the Founder and CEO of OpenPipe, a platform that enables developers to fine-tune large language models (LLMs) for specific use cases, making it easy to collect prompt-response pairs and automate the creation of specialized, cost-effective models. He is a seasoned entrepreneur and engineer with experience as a Director at Y Combinator, where he led the development of Startup School, and as a software engineer at Google and Facebook. Corbitt has also co-founded companies such as Emberall and Something New. He is recognized for his deep technical expertise in AI, developer tooling, and startup growth, as well as his contributions to open-source and community-driven education. Based in Bellevue, WA, Corbitt is active in the AI and startup ecosystem, frequently sharing insights on LLM fine-tuning, model deployment, and the future of machine learning.
+    misspellings: [Corbette]
+    nicknames: []
+    usernames: [corbtt, kcorbitt, imightbekyle]
+    roles: [Founder at OpenPipe, Instructor in the Agent Engineering course, AI Engineer, Entrepreneur, Speaker]
+
+
+Companies:
+  Prime Intellect:
+    description: Prime Intellect democratizes AI development at scale by aggregating global compute resources and enabling distributed training across clusters. Makes it easy to find global compute resources. The platform aggregates global supply from leading centralized and decentralized GPU providers, offering cost-effective, scalable on-demand compute. It has developed frameworks like PRIME-RL for decentralized reinforcement learning. Founded by Johannes Hagemann and Vincent Weisser, the company is based in San Francisco.
+    misspellings: []
+    nicknames: []
+    url: [https://www.primeintellect.ai, https://twitter.com/primeintellect, https://www.linkedin.com/company/primeintellect-ai]
+
+  OpenPipe:
+    description: OpenPipe is a platform that optimizes LLM usage by collecting prompts and responses to fine-tune smaller, more efficient models for specific use cases. Reduces costs and latency while maintaining performance compared to general-purpose LLMs. Enables teams to gather data from existing applications, fine-tune open-source or proprietary models, and deploy optimized models at scale. Helps maximize AI deployment efficiency without sacrificing quality.
+    misspellings: [Open Pipe]
+    nicknames: []
+    url: [https://openpipe.ai, https://twitter.com/openpipe, https://techcrunch.com/2024/02/08/openpipe-raises-6-7m-to-help-companies-fine-tune-llms/]
