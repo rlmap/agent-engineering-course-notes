@@ -24,6 +24,7 @@ Q: *What are your goals for the course? What brought you here? What challenges a
 ## Navigation
 
 - [Glossary](./glossary/)
+- [Sidequests](./sidequests/)
 - [TODO](./TODO.md)
 
 ## Guidelines
