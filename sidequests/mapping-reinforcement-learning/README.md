@@ -1,7 +1,7 @@
 # Mapping Reinforcement Learning
 
-In my effort to visualize where reinforcement learning falls in the scope of AI, I've come across a few images on Wikipedia:
-- [Wikipedia entry](https://en.wikipedia.org/wiki/Reinforcement_learning)
+In my effort to visualize where reinforcement learning falls in the landscape of AI, I've come across a few images on Wikipedia:
+- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
 - [Deep learning](https://en.wikipedia.org/wiki/Deep_learning)
 - [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
 - [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
