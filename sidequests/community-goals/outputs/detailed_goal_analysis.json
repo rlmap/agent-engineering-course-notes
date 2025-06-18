@@ -1,0 +1,555 @@
+{
+  "summary": {
+    "total_participants": 44,
+    "total_category_assignments": 150,
+    "average_categories_per_goal": 3.409090909090909
+  },
+  "participants": [
+    {
+      "user_name": "Pavel Shtykovskiy",
+      "user_id": "cohort_20383_user_385374",
+      "goal_text": "Gain practical, in-the-trenches experience from industry experts on training and deploying production-ready agents. Take a break from reading RL papers and code instead :)",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T14:09:06.742799Z"
+    },
+    {
+      "user_name": "Kevin Wang",
+      "user_id": "cohort_20383_user_649515",
+      "goal_text": "I have two main goals for this course:\n\n*   I want to soak up all there is to learn from Will and Kyle about RL x LLMs; I'd like to use this course to really penetrate into the weeds of this world.\n    \n*   I want to get a solid grasp of the landscape of building and productionizing agentic systems: the current frontier, the challenges, the bottlenecks, as well as how RL interplays with all of it.",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Networking",
+        "Innovation",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 7,
+      "created_at": "2025-06-16T14:22:09.347275Z"
+    },
+    {
+      "user_name": "Morteza",
+      "user_id": "cohort_20383_user_620493",
+      "goal_text": "1.  How to design and implement safe Agents.\n    \n2.  When the RL is needed in creating Agents and What is the most efficient way of the Agent fine tuning using RL.\n    \n3.  How to gather (or synth) the data for Agent training.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Best Practices",
+        "Prototyping"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T15:47:34.211721Z"
+    },
+    {
+      "user_name": "Jacob Milleville",
+      "user_id": "cohort_20383_user_647925",
+      "goal_text": "1\\. Gain familiarity with custom agent frameworks and related best practices - I work with agents now but I feel like there is room for improvement in the abstractions and tools I use for future projects.  \n2\\. Do some RL - I want to learn as many practical components of doing RL as possible. Excited to have support getting through some of the setup slog that has previously discouraged me from experimenting here in the past.  \n3\\. Learn more about how you're thinking on MCP/A2A - I hear lots of wild stuff being thrown around about these protocols constantly, and am personally a little underwhelmed by them at the technical level especially re: the problems they don't solve.",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Career",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 6,
+      "created_at": "2025-06-16T15:52:30.10191Z"
+    },
+    {
+      "user_name": "Tanush Jagdish",
+      "user_id": "cohort_20383_user_647693",
+      "goal_text": "I'm the founder of Olito Labs. We build AI tools that help banks and credit unions manage regulatory and supervisory issues.\n\nThrough this course, I want to:  \n\n1.  **Train a small GRPO-fine-tuned model** that beats a baseline GPT-4 prompt on a banking regulation test set by >25% composite reward (accuracy + relevance).\n    \n2.  **Stand up a custom MCP server** with auth and logging, document its design, and demo secure tool calls live during the final week’s office hours.\n    \n3.  **Implement and open-source an eval script** (rule-based + LLM-judge) to score banking regulation-specific answers and generate rewards\n    \n\nAll of this put together, the ultimate goal is to deliver a working prototype that (a) uses MCP to call external tools (FDIC reg search) and (b) completes a full ReAct reasoning loop with output that can be evaluated",
+      "categories": [
+        "Best Practices",
+        "Career",
+        "Hands-on Technical Skills",
+        "Domain-Specific Applications",
+        "Prototyping",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 6,
+      "created_at": "2025-06-16T16:00:04.775906Z"
+    },
+    {
+      "user_name": "AJ Ade",
+      "user_id": "cohort_20383_user_648666",
+      "goal_text": "To be able to take any problem, decompose it into its constituent parts and apply RL as needed or any Agentic framework or MCP tools",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Career"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T16:15:50.231304Z"
+    },
+    {
+      "user_name": "Ben Perlmutter",
+      "user_id": "cohort_20383_user_647482",
+      "goal_text": "I would like to learn more about RL and building reliable AI agents.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T16:43:39.198449Z"
+    },
+    {
+      "user_name": "Surender Suresh Kumar",
+      "user_id": "cohort_20383_user_646942",
+      "goal_text": "Understand the practical challenges involved in training agents with RL, in particular which sort of reward models work well in which contexts",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Career",
+        "Hands-on Technical Skills",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 5,
+      "created_at": "2025-06-16T16:44:55.791255Z"
+    },
+    {
+      "user_name": "William Huang",
+      "user_id": "cohort_20383_user_665118",
+      "goal_text": "Build a knowledge foundation for bringing MCP/agent engineering into our engineering org",
+      "categories": [
+        "Foundation Building",
+        "Career",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 5,
+      "created_at": "2025-06-16T16:48:13.518917Z"
+    },
+    {
+      "user_name": "Kazuki Inamura",
+      "user_id": "cohort_20383_user_378036",
+      "goal_text": "*   Deepen my understanding of the key leverage points in MCP, drawing on insights from the lectures while valuing the informal, practice-driven intuitions of working professionals.\n    \n*   Reach a level where I can confidently deliver AI agents as production-ready outputs in my day-to-day role as an AI engineer—on par with the confidence I already have when shipping an ML model, its code, and its evaluation.\n    \n*   Learn how and when to choose RL, in particular GRPO, for fine-tuning local LLMs, especially exploring its potential in combination with an LLM-based reward model that provides \"soft-verifiable\" feedback.\n    \n\nBy the last week, I'll try to ship an AI agent prototype to internal staging environment in my company (it'll be something like a RAG agent or an LLM-as-a-judge Evaluator agent.)",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Career",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Evaluation + Optimization",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 7,
+      "created_at": "2025-06-16T16:59:24.175244Z"
+    },
+    {
+      "user_name": "Kevin Davis",
+      "user_id": "cohort_20383_user_646458",
+      "goal_text": "Goals:  \n  \nImprove understanding of MCP architecture and use cases. When to use/when not to, etc  \nGet a hands-on understanding of SoTA for using RL on open models. ART-E email example is an interesting starting point, but valuable real world problems seem way too complex for current models, both from a capabilities and evaluation perspective.  \nBuild and evaluate powerful agents that hopefully can be applied to problems in my domain!",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Hands-on Technical Skills",
+        "Domain-Specific Applications",
+        "Prototyping",
+        "Evaluation + Optimization",
+        "Innovation"
+      ],
+      "category_count": 7,
+      "created_at": "2025-06-16T17:09:04.734848Z"
+    },
+    {
+      "user_name": "Nick  Gideo",
+      "user_id": "cohort_20383_user_648699",
+      "goal_text": "Gain proficiency with building and evaluating agents.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Evaluation + Optimization",
+        "Prototyping"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T17:14:21.102003Z"
+    },
+    {
+      "user_name": "Satya Krishna Gorti",
+      "user_id": "cohort_20383_user_648755",
+      "goal_text": "Understand the practical aspects of RL in training LMs and building reasoning models.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T17:35:18.180995Z"
+    },
+    {
+      "user_name": "Jay Wengrow",
+      "user_id": "cohort_20383_user_640587",
+      "goal_text": "To gain expertise with agents and MCP",
+      "categories": [
+        "Foundation Building"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-16T18:41:39.654341Z"
+    },
+    {
+      "user_name": "James",
+      "user_id": "cohort_20383_user_662398",
+      "goal_text": "What kind of scaffolding do \"agents\" do best with? How much does this scaffolding change over time? When can you use a smaller model distilled from a larger, and what percentage of SFT on the outputs of the larger model vs RL with the smaller is right? What kinds of tasks benefit from scaffolding, and which continue to suck?",
+      "categories": [
+        "Best Practices"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-16T19:20:52.244121Z"
+    },
+    {
+      "user_name": "Louis Santoro",
+      "user_id": "cohort_20383_user_646845",
+      "goal_text": "Build a prototype of a multiagent system for formal proof verification in Lean 4. Possibly enhance the interpretative side of a research pipeline and start to elaborate a writing pipeline.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Domain-Specific Applications",
+        "Innovation",
+        "Prototyping"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-16T20:12:11.039153Z"
+    },
+    {
+      "user_name": "Sumita Palanisamy ",
+      "user_id": "cohort_20383_user_233409",
+      "goal_text": "To get hands on experience in agents and mcp!",
+      "categories": [
+        "Hands-on Technical Skills"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-16T20:54:29.810088Z"
+    },
+    {
+      "user_name": "Chris Hugentobler",
+      "user_id": "cohort_20383_user_359502",
+      "goal_text": "To learn how to go from evaluations to a feedback loop to make AI applications better.",
+      "categories": [
+        "Foundation Building",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T22:16:55.215823Z"
+    },
+    {
+      "user_name": "Kachi Odoemene",
+      "user_id": "cohort_20383_user_665200",
+      "goal_text": "Hands-on refresher on RL. Looking forward to building and deploying RL agents.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-17T01:01:33.573937Z"
+    },
+    {
+      "user_name": "Eric Gradman",
+      "user_id": "cohort_20383_user_647376",
+      "goal_text": "I've now developed several agents for personal and professional use, and my facility with the tools is increasing with each iteration. I want to take it up a notch, and feel as proficient with LLMs as I feel with the tools I've used for years.\n\nI'm particularly excited to learn about how to apply RL to my work, because I sense RL will be integral to making LLMs feel like more than just \"fancy autocomplete!\"",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Career",
+        "Prototyping"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-17T01:04:20.145728Z"
+    },
+    {
+      "user_name": "Ipsita Mohanty",
+      "user_id": "cohort_20383_user_402175",
+      "goal_text": "Learn something new!",
+      "categories": [
+        "Foundation Building"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-17T02:17:35.32304Z"
+    },
+    {
+      "user_name": "Jake Nations",
+      "user_id": "cohort_20383_user_647597",
+      "goal_text": "My goals for the course are learning more about RL and applying it to agents.",
+      "categories": [
+        "Foundation Building"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-17T03:40:35.238341Z"
+    },
+    {
+      "user_name": "Sairam Chitreddy",
+      "user_id": "cohort_20383_user_337796",
+      "goal_text": "Get a foundation about RLVR and learn how to apply it to my use cases",
+      "categories": [
+        "Foundation Building"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-17T04:02:09.466265Z"
+    },
+    {
+      "user_name": "Mars",
+      "user_id": "cohort_20383_user_495458",
+      "goal_text": "Identify a practical use case where an agent would be more effective than static code. Build the agent. Evaluate the agent. Fine-tune it using RL. Re-eval. Success.\n\nI’ve some exp in building an agentic RAG, but want to deep dive into fundamental concepts and gain expertise.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-17T04:36:35.213616Z"
+    },
+    {
+      "user_name": "Pratyush R Tiwari",
+      "user_id": "cohort_20383_user_663062",
+      "goal_text": "Be able to do reinforcement fine-tuning for problems I care about on small models  \n  \nBe able to improve on papers like this with more compute [https://socialdeductionllm.github.io/](https://socialdeductionllm.github.io/)",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Evaluation + Optimization",
+        "Innovation"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-17T04:57:56.485329Z"
+    },
+    {
+      "user_name": "Michał Barrington",
+      "user_id": "cohort_20383_user_660142",
+      "goal_text": "Goal(s):\n\n1) Master the art of building smart(er) agents\n\n2) Become more accustomed with the concept of MCP and start utilising it more\n\n3) Get hands-on experience with RL, beyond pure theory\n\n4) Understand best practices in the field\n\nPersonal project I'd like to improve:\n\nTake the gained knowledge and Implement an agent as a 'home assistant' mainly to control my smart-lights env lol (siri is extremely limited and I refuse to pay for additional hardware to unlock the full potential if the API is freely available).\n\nChange my current approach of (struggling to implement a) wake-word detection model -> transcribe -> detect command -> use relevant func\n\ninto\n\nvoice2text -> agent -> tool usage",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Hands-on Technical Skills",
+        "Domain-Specific Applications",
+        "Prototyping",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 6,
+      "created_at": "2025-06-16T09:48:49.457065Z"
+    },
+    {
+      "user_name": "Denis Wambold",
+      "user_id": "cohort_20383_user_647076",
+      "goal_text": "Learn more about Agents, MCP, best practices and get deep into RL and the theoretical part behind it.",
+      "categories": [
+        "Foundation Building",
+        "Best Practices"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T09:58:15.589444Z"
+    },
+    {
+      "user_name": "Victor Adafinoaiei ",
+      "user_id": "cohort_20383_user_648206",
+      "goal_text": "Learn and apply RL model fine tuning for a PoC and expand.",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T10:47:58.538358Z"
+    },
+    {
+      "user_name": "Julian - Thomas Erdoedy",
+      "user_id": "cohort_20383_user_664556",
+      "goal_text": "to learn practical implementations of developing performant agent-based systems, products, or services, with real-world examples.\n\nto have the opportunity to exchange with like-minds, perhaps engage in mutual projects and learn as much as possible from the frontier of RL-optimised agentic systems.",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Networking",
+        "Innovation",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 7,
+      "created_at": "2025-06-16T11:47:22.845452Z"
+    },
+    {
+      "user_name": "Antonin Couturier",
+      "user_id": "cohort_20383_user_646892",
+      "goal_text": "Have enough understanding of MCP and GRPO to start building with those in prod",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-16T12:31:35.928366Z"
+    },
+    {
+      "user_name": "Isfandiyar Shaheen",
+      "user_id": "cohort_20383_user_647712",
+      "goal_text": "Use reinforcement learning in an MCP Client-Server combo I've made to improve both retrieval and synthesis",
+      "categories": [
+        "Foundation Building",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T12:31:53.766062Z"
+    },
+    {
+      "user_name": "Ilija Lichkovski",
+      "user_id": "cohort_20383_user_649067",
+      "goal_text": "*   Learn to hill-climb narrow domains with agentic RL (medical diagnoses, for instance)\n    \n*   Learn from folks about their ideas!",
+      "categories": [
+        "Foundation Building",
+        "Domain-Specific Applications",
+        "Networking"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-16T12:34:52.440895Z"
+    },
+    {
+      "user_name": "Adi Pradhan",
+      "user_id": "cohort_20383_user_24012",
+      "goal_text": "I'm building [Socratify](https://www.socratify.com/), an [AI coach for professional upskilling](https://www.socratify.com/) in an AI native world with a focus on critical thinking and communication skills  \n  \nI want to get to the next echelon of performance on various tasks and believe agentic workflows + some RL will be massively impactful",
+      "categories": [
+        "Career",
+        "Hands-on Technical Skills",
+        "Domain-Specific Applications",
+        "Prototyping",
+        "Evaluation + Optimization",
+        "Innovation"
+      ],
+      "category_count": 6,
+      "created_at": "2025-06-16T12:59:43.581805Z"
+    },
+    {
+      "user_name": "Harry Jackson",
+      "user_id": "cohort_20383_user_665546",
+      "goal_text": "Fine-tune a small reasoning model to perform some non-trivial task well.",
+      "categories": [
+        "Hands-on Technical Skills"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-16T13:25:26.87028Z"
+    },
+    {
+      "user_name": "Troy Prebenda",
+      "user_id": "cohort_20383_user_651280",
+      "goal_text": "Learn about best practices for MCP + RL in AI-based apps.",
+      "categories": [
+        "Foundation Building",
+        "Best Practices"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-16T13:57:50.915726Z"
+    },
+    {
+      "user_name": "Hendrik Reh",
+      "user_id": "cohort_20383_user_601555",
+      "goal_text": "**My goals for this course**\n\n1.  **Ship an agentic proof-of-concept**\n    \n2.  **Master the nuts-and-bolts of MCP + RL**\n    \n3.  **Harvest battle-tested patterns from the cohort**\n    \n4.  **Spark future collabs**",
+      "categories": [
+        "Evaluation + Optimization",
+        "Best Practices",
+        "Prototyping",
+        "Networking"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-14T07:37:40.202812Z"
+    },
+    {
+      "user_name": "Vishal Goklani",
+      "user_id": "cohort_20383_user_661301",
+      "goal_text": "To train an AI from scratch (no external libraries like TRL etc) that properly uses reinforcement learning to solve puzzles. The emphasis here is \"from scratch\" and working through all the finer details. I went to school in physics/math, but I find that I'm missing a few pieces when reading through the literature. Thanks!",
+      "categories": [
+        "Foundation Building",
+        "Domain-Specific Applications",
+        "Career",
+        "Innovation"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-15T12:49:11.703997Z"
+    },
+    {
+      "user_name": "Eddy Atkins",
+      "user_id": "cohort_20383_user_373752",
+      "goal_text": "I want help being able to define business tasks in the context of verifiable RL/Agentic systems",
+      "categories": [
+        "Prototyping",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-15T14:36:25.350794Z"
+    },
+    {
+      "user_name": "Swetha Ganesan",
+      "user_id": "cohort_20383_user_321525",
+      "goal_text": "Learn about MCP and RL and how to bring those into my product.\n\nLearn about the gotchas and best practices to support enterprises before building",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Hands-on Technical Skills",
+        "Prototyping",
+        "Enterprise (Production) Deployment"
+      ],
+      "category_count": 5,
+      "created_at": "2025-06-15T15:46:47.851197Z"
+    },
+    {
+      "user_name": "Anoop",
+      "user_id": "cohort_20383_user_370261",
+      "goal_text": "1.  bootstrap on agentic RL via hands on\n    \n2.  tradeoffs - when and when not to use agentic RL\n    \n3.  make connections",
+      "categories": [
+        "Foundation Building",
+        "Best Practices",
+        "Networking"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-15T16:04:33.431367Z"
+    },
+    {
+      "user_name": "Rishad Bharucha",
+      "user_id": "cohort_20383_user_261267",
+      "goal_text": "Ship an RL agent system and MCP.",
+      "categories": [
+        "Prototyping"
+      ],
+      "category_count": 1,
+      "created_at": "2025-06-15T16:54:29.969436Z"
+    },
+    {
+      "user_name": "Arihant Jain",
+      "user_id": "cohort_20383_user_649681",
+      "goal_text": "**Ship an agentic poc. Learn about MCP + RL and real world applications**",
+      "categories": [
+        "Foundation Building",
+        "Prototyping"
+      ],
+      "category_count": 2,
+      "created_at": "2025-06-15T17:17:41.25692Z"
+    },
+    {
+      "user_name": "Jhordan",
+      "user_id": "cohort_20383_user_664017",
+      "goal_text": "build a real time online learning system with custom metrics and rewards",
+      "categories": [
+        "Hands-on Technical Skills",
+        "Foundation Building",
+        "Prototyping",
+        "Evaluation + Optimization"
+      ],
+      "category_count": 4,
+      "created_at": "2025-06-15T17:41:21.354116Z"
+    },
+    {
+      "user_name": "sam",
+      "user_id": "cohort_20383_user_648248",
+      "goal_text": "I want to refresh myself on AI concepts and prepare for AI engineering interviews, while learning helpful cutting edge science.",
+      "categories": [
+        "Foundation Building",
+        "Innovation",
+        "Career"
+      ],
+      "category_count": 3,
+      "created_at": "2025-06-15T17:48:16.232067Z"
+    }
+  ]
+}
