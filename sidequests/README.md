@@ -7,3 +7,4 @@ This whole section is basically just me being nerdsniped by different problems w
 ## Directory
 
 - [Mapping Reinforcement Learning](./mapping-reinforcement-learning/) - Exploring how reinforcement learning fits into the scope of AI.
+- [Community Goals Analysis](./community-goals/) - Analysis and visualization of agent engineering course participant goals.
