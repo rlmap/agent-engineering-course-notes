@@ -146,9 +146,27 @@ def create_visualizations(category_counts: Dict[str, int], goal_categories: Dict
         ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height()/2, 
                 str(count), va='center', fontsize=12, fontweight='bold')
 
-    # 2. Pie chart
-    ax2.pie(sorted_counts, labels=[cat.replace(' & ', '\n& ') for cat in sorted_categories], 
-            autopct='%1.1f%%', startangle=90, textprops={'fontsize': 10})
+    # 2. Pie chart with improved label positioning
+    def autopct_func(pct):
+        # Only show percentage if it's above 5% to avoid clutter
+        return f'{pct:.1f}%' if pct > 5 else ''
+
+    wedges, texts, autotexts = ax2.pie(sorted_counts,
+                                       labels=[cat.replace(' & ', '\n& ') for cat in sorted_categories],
+                                       autopct=autopct_func,
+                                       startangle=90,
+                                       textprops={'fontsize': 10},
+                                       pctdistance=0.85,  # Move percentages closer to center
+                                       labeldistance=1.1)  # Move labels further from center
+
+    # Improve text positioning for better readability
+    for text in texts:
+        text.set_fontsize(10)
+    for autotext in autotexts:
+        autotext.set_fontsize(10)
+        autotext.set_fontweight('bold')
+        autotext.set_color('black')
+
     ax2.set_title('Goals Distribution', fontsize=14, fontweight='bold')
 
     plt.tight_layout()
@@ -211,8 +229,8 @@ def main():
     """Main function to run the analysis."""
 
     # Load goals
-    goals = load_goals('sidequests/community-goals/outputs/extracted_goals.json')
-    print(f"Loaded {len(goals)} goals from extracted_goals.json")
+    goals = load_goals('sidequests/community-goals/outputs/all_goals_export.json')
+    print(f"Loaded {len(goals)} goals from all_goals_export.json")
 
     # Analyze goals
     category_counts, goal_categories = analyze_goals(goals)
