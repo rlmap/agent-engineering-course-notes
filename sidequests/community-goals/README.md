@@ -1,6 +1,6 @@
 # Agent Engineering Goals
 
-Students were asked to reflect on their goals for the course. Most of the reponses can be categorized into the following categories:
+Students were asked to reflect on their goals for the course. Most of the reponses can be categorized into the following camps:
 
 <img src="outputs/goal_categories_analysis.png" alt="Goal Categories Analysis" height="512">
 

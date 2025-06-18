@@ -13,7 +13,7 @@ These two graphs are most useful to me:
 
 <img src="graphic/AI-ML-DL.svg" alt="AI ML DL" height="256">
 
-This is about as far as I made it designing my own graphic before I realized the field deserves deeper research:
+This is about as far as I made it in designing my own graphic before I realized the field deserves deeper research:
 
 <img src="graphic/mapping-reinforcement-learning.svg" alt="Mapping Reinforcement Learning" height="256">
 
