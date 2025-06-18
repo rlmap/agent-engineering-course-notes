@@ -4,6 +4,7 @@ Students were asked to reflect on their goals for the course. Most of the repons
 
 <img src="outputs/goal_categories_analysis.png" alt="Goal Categories Analysis" height="512">
 
+```py
 Total participants: 86
 Total category assignments: 270
 Average categories per goal: 3.14
@@ -20,7 +21,7 @@ Enterprise (Production) Deployment  20           23.3%
 Domain-Specific Applications        10           11.6%
 Innovation                          8             9.3%
 Networking                          6             7.0%
-
+```
 
 ## Goal Categories
 
