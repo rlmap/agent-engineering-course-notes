@@ -25,3 +25,11 @@ Which prompted my brain to generate more questions:
 
 I get the feeling these things are not clearly defined. Or maybe just a skill issue on my part.
 Don't have enough time for a full sidequest but thinking of everything as a mindmap helps me understand the relationships at play.
+
+## Update
+
+I asked o3 to give me its take on the field given the context of the problem and my design. It generated this:
+
+<img src="graphic/ai_ml_rl_landscape.png" alt="AI ML RL Landscape" height="256">
+
+Not sure how accurate this is but I think it's amazing models are able to do things like this.
