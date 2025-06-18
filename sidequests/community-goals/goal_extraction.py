@@ -60,7 +60,6 @@ class GoalExtractor:
 
         # Exclude any files that are in the outputs directory or are legacy output files
         exclude_patterns = {
-            "extracted_goals.json",
             "all_goals_export.json",
             "master_goals_database.json",
             "processed_files.json"
