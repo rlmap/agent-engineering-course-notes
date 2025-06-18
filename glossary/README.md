@@ -1,6 +1,6 @@
 # Glossary
 
-This directory contains a curated glossary of terms, people, products, and concepts relevant to the Reinforcement Learning space.
+This directory contains a curated glossary of terms, people, products, and concepts relevant to the Agent Engineering space.
 
 ## Files
 
