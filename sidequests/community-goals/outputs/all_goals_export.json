@@ -1,0 +1,1217 @@
+[
+  {
+    "message_id": "2a66d5a6-ee6a-4519-adcd-66d5dfb420e0",
+    "user_id": "cohort_20383_user_385374",
+    "user_name": "Pavel Shtykovskiy",
+    "goal_text": "Gain practical, in-the-trenches experience from industry experts on training and deploying production-ready agents. Take a break from reading RL papers and code instead :)",
+    "goal_html": "<p>Gain practical, in-the-trenches experience from industry experts on training and deploying production-ready agents. Take a break from reading RL papers and code instead :)</p>\n",
+    "created_at": "2025-06-16T14:09:06.742799Z",
+    "updated_at": "2025-06-16T16:23:37.894198Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "445f26776319f6ba9ae82103c4e1c49d"
+  },
+  {
+    "message_id": "1126e3f4-1cdd-42fc-b1c4-dea464c88686",
+    "user_id": "cohort_20383_user_649515",
+    "user_name": "Kevin Wang",
+    "goal_text": "I have two main goals for this course:\n\n*   I want to soak up all there is to learn from Will and Kyle about RL x LLMs; I'd like to use this course to really penetrate into the weeds of this world.\n    \n*   I want to get a solid grasp of the landscape of building and productionizing agentic systems: the current frontier, the challenges, the bottlenecks, as well as how RL interplays with all of it.",
+    "goal_html": "<p>I have two main goals for this course:<br/>\n<br/>\n*   I want to soak up all there is to learn from Will and Kyle about RL x LLMs; I’d like to use this course to really penetrate into the weeds of this world.<br/>\n    <br/>\n*   I want to get a solid grasp of the landscape of building and productionizing agentic systems: the current frontier, the challenges, the bottlenecks, as well as how RL interplays with all of it.</p>\n",
+    "created_at": "2025-06-16T14:22:09.347275Z",
+    "updated_at": "2025-06-16T16:23:32.80989Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "e115de75c16e8fb3ffe1f9e8cb4c08c0"
+  },
+  {
+    "message_id": "476ac001-d130-46fd-aab1-4c4eca73cd3a",
+    "user_id": "cohort_20383_user_620493",
+    "user_name": "Morteza",
+    "goal_text": "1.  How to design and implement safe Agents.\n    \n2.  When the RL is needed in creating Agents and What is the most efficient way of the Agent fine tuning using RL.\n    \n3.  How to gather (or synth) the data for Agent training.",
+    "goal_html": "<ol>\n<li>How to design and implement safe Agents.<br/>\n<br/>\n</li>\n<li>When the RL is needed in creating Agents and What is the most efficient way of the Agent fine tuning using RL.<br/>\n<br/>\n</li>\n<li>How to gather (or synth) the data for Agent training.</li>\n</ol>\n",
+    "created_at": "2025-06-16T15:47:34.211721Z",
+    "updated_at": "2025-06-16T16:23:28.623032Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "9a949988b9742fbf48ff96665f8325bc"
+  },
+  {
+    "message_id": "043a5a2c-5315-4b7a-96c9-8e6fd6507817",
+    "user_id": "cohort_20383_user_647925",
+    "user_name": "Jacob Milleville",
+    "goal_text": "1\\. Gain familiarity with custom agent frameworks and related best practices - I work with agents now but I feel like there is room for improvement in the abstractions and tools I use for future projects.  \n2\\. Do some RL - I want to learn as many practical components of doing RL as possible. Excited to have support getting through some of the setup slog that has previously discouraged me from experimenting here in the past.  \n3\\. Learn more about how you're thinking on MCP/A2A - I hear lots of wild stuff being thrown around about these protocols constantly, and am personally a little underwhelmed by them at the technical level especially re: the problems they don't solve.",
+    "goal_html": "<p>1. Gain familiarity with custom agent frameworks and related best practices - I work with agents now but I feel like there is room for improvement in the abstractions and tools I use for future projects.  <br/>\n2. Do some RL - I want to learn as many practical components of doing RL as possible. Excited to have support getting through some of the setup slog that has previously discouraged me from experimenting here in the past.  <br/>\n3. Learn more about how you’re thinking on MCP/A2A - I hear lots of wild stuff being thrown around about these protocols constantly, and am personally a little underwhelmed by them at the technical level especially re: the problems they don’t solve.</p>\n",
+    "created_at": "2025-06-16T15:52:30.10191Z",
+    "updated_at": "2025-06-16T16:23:26.282811Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "a5a919e7cf220b3f0138f19787ae63d7"
+  },
+  {
+    "message_id": "0fffb743-49ae-4d54-9b61-60a0368926a9",
+    "user_id": "cohort_20383_user_647693",
+    "user_name": "Tanush Jagdish",
+    "goal_text": "I'm the founder of Olito Labs. We build AI tools that help banks and credit unions manage regulatory and supervisory issues.\n\nThrough this course, I want to:  \n\n1.  **Train a small GRPO-fine-tuned model** that beats a baseline GPT-4 prompt on a banking regulation test set by >25% composite reward (accuracy + relevance).\n    \n2.  **Stand up a custom MCP server** with auth and logging, document its design, and demo secure tool calls live during the final week’s office hours.\n    \n3.  **Implement and open-source an eval script** (rule-based + LLM-judge) to score banking regulation-specific answers and generate rewards\n    \n\nAll of this put together, the ultimate goal is to deliver a working prototype that (a) uses MCP to call external tools (FDIC reg search) and (b) completes a full ReAct reasoning loop with output that can be evaluated",
+    "goal_html": "<p>I’m the founder of Olito Labs. We build AI tools that help banks and credit unions manage regulatory and supervisory issues.<br/>\n<br/>\nThrough this course, I want to:  <br/>\n<br/>\n1.  <strong>Train a small GRPO-fine-tuned model</strong> that beats a baseline GPT-4 prompt on a banking regulation test set by &gt;25% composite reward (accuracy + relevance).<br/>\n    <br/>\n2.  <strong>Stand up a custom MCP server</strong> with auth and logging, document its design, and demo secure tool calls live during the final week’s office hours.<br/>\n    <br/>\n3.  <strong>Implement and open-source an eval script</strong> (rule-based + LLM-judge) to score banking regulation-specific answers and generate rewards<br/>\n    <br/>\n<br/>\nAll of this put together, the ultimate goal is to deliver a working prototype that (a) uses MCP to call external tools (FDIC reg search) and (b) completes a full ReAct reasoning loop with output that can be evaluated</p>\n",
+    "created_at": "2025-06-16T16:00:04.775906Z",
+    "updated_at": "2025-06-16T16:23:18.93741Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "6f4f782be7b60716e231733da24803c2"
+  },
+  {
+    "message_id": "dbb29b46-6006-4996-a7ca-4ef98c082778",
+    "user_id": "cohort_20383_user_648666",
+    "user_name": "AJ Ade",
+    "goal_text": "To be able to take any problem, decompose it into its constituent parts and apply RL as needed or any Agentic framework or MCP tools",
+    "goal_html": "<p>To be able to take any problem, decompose it into its constituent parts and apply RL as needed or any Agentic framework or MCP tools</p>\n",
+    "created_at": "2025-06-16T16:15:50.231304Z",
+    "updated_at": "2025-06-16T16:23:15.955727Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "e7d42488a19103cd56ba3bf59c3686f6"
+  },
+  {
+    "message_id": "3dd6300c-b704-41e9-a0f6-5a1056b110b2",
+    "user_id": "cohort_20383_user_647482",
+    "user_name": "Ben Perlmutter",
+    "goal_text": "I would like to learn more about RL and building reliable AI agents.",
+    "goal_html": "<p>I would like to learn more about RL and building reliable AI agents.</p>\n",
+    "created_at": "2025-06-16T16:43:39.198449Z",
+    "updated_at": "2025-06-16T16:43:39.198449Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "fba0912f9e123ba73589ca321f4e6499"
+  },
+  {
+    "message_id": "086a1694-be7b-4209-a753-f6e84a9e2258",
+    "user_id": "cohort_20383_user_646942",
+    "user_name": "Surender Suresh Kumar",
+    "goal_text": "Understand the practical challenges involved in training agents with RL, in particular which sort of reward models work well in which contexts",
+    "goal_html": "<p>Understand the practical challenges involved in training agents with RL, in particular which sort of reward models work well in which contexts</p>\n",
+    "created_at": "2025-06-16T16:44:55.791255Z",
+    "updated_at": "2025-06-16T16:44:55.791255Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "932927acfad62a361e833c3aee121173"
+  },
+  {
+    "message_id": "1cac2074-989b-4acc-bc16-bb4080942281",
+    "user_id": "cohort_20383_user_665118",
+    "user_name": "William Huang",
+    "goal_text": "Build a knowledge foundation for bringing MCP/agent engineering into our engineering org",
+    "goal_html": "<p>Build a knowledge foundation for bringing MCP/agent engineering into our engineering org</p>\n",
+    "created_at": "2025-06-16T16:48:13.518917Z",
+    "updated_at": "2025-06-16T16:48:13.518917Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "a10c709bbe4c7c6710ce96319c31684a"
+  },
+  {
+    "message_id": "920b81ce-6647-42bd-b969-ecc28c10ceda",
+    "user_id": "cohort_20383_user_378036",
+    "user_name": "Kazuki Inamura",
+    "goal_text": "*   Deepen my understanding of the key leverage points in MCP, drawing on insights from the lectures while valuing the informal, practice-driven intuitions of working professionals.\n    \n*   Reach a level where I can confidently deliver AI agents as production-ready outputs in my day-to-day role as an AI engineer—on par with the confidence I already have when shipping an ML model, its code, and its evaluation.\n    \n*   Learn how and when to choose RL, in particular GRPO, for fine-tuning local LLMs, especially exploring its potential in combination with an LLM-based reward model that provides \"soft-verifiable\" feedback.\n    \n\nBy the last week, I'll try to ship an AI agent prototype to internal staging environment in my company (it'll be something like a RAG agent or an LLM-as-a-judge Evaluator agent.)",
+    "goal_html": "<ul>\n<li>Deepen my understanding of the key leverage points in MCP, drawing on insights from the lectures while valuing the informal, practice-driven intuitions of working professionals.<br/>\n<br/>\n</li>\n<li>Reach a level where I can confidently deliver AI agents as production-ready outputs in my day-to-day role as an AI engineer—on par with the confidence I already have when shipping an ML model, its code, and its evaluation.<br/>\n<br/>\n</li>\n<li>Learn how and when to choose RL, in particular GRPO, for fine-tuning local LLMs, especially exploring its potential in combination with an LLM-based reward model that provides “soft-verifiable” feedback.<br/>\n<br/>\n<br/>\nBy the last week, I’ll try to ship an AI agent prototype to internal staging environment in my company (it’ll be something like a RAG agent or an LLM-as-a-judge Evaluator agent.)</li>\n</ul>\n",
+    "created_at": "2025-06-16T16:59:24.175244Z",
+    "updated_at": "2025-06-16T19:23:16.044425Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "like": 1
+    },
+    "dedup_hash": "fd65b6045eaf0b8cc9cd0841665543e2"
+  },
+  {
+    "message_id": "c5675f58-5770-433b-bbcc-db60b9967dff",
+    "user_id": "cohort_20383_user_646458",
+    "user_name": "Kevin Davis",
+    "goal_text": "Goals:  \n  \nImprove understanding of MCP architecture and use cases. When to use/when not to, etc  \nGet a hands-on understanding of SoTA for using RL on open models. ART-E email example is an interesting starting point, but valuable real world problems seem way too complex for current models, both from a capabilities and evaluation perspective.  \nBuild and evaluate powerful agents that hopefully can be applied to problems in my domain!",
+    "goal_html": "<p>Goals:  <br/>\n  <br/>\nImprove understanding of MCP architecture and use cases. When to use/when not to, etc  <br/>\nGet a hands-on understanding of SoTA for using RL on open models. ART-E email example is an interesting starting point, but valuable real world problems seem way too complex for current models, both from a capabilities and evaluation perspective.  <br/>\nBuild and evaluate powerful agents that hopefully can be applied to problems in my domain!</p>\n",
+    "created_at": "2025-06-16T17:09:04.734848Z",
+    "updated_at": "2025-06-16T17:09:04.734848Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "77ffe385fad75dc89b373d1f5a96be9b"
+  },
+  {
+    "message_id": "197d21e0-eab0-4d2f-bd3d-bfb8df3abe67",
+    "user_id": "cohort_20383_user_648699",
+    "user_name": "Nick  Gideo",
+    "goal_text": "Gain proficiency with building and evaluating agents.",
+    "goal_html": "<p>Gain proficiency with building and evaluating agents.</p>\n",
+    "created_at": "2025-06-16T17:14:21.102003Z",
+    "updated_at": "2025-06-16T17:14:21.102003Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "9b09b94471dbb1c54abba51280d1a2a5"
+  },
+  {
+    "message_id": "e229360a-65a4-45d6-acdc-08d2ca87513f",
+    "user_id": "cohort_20383_user_648755",
+    "user_name": "Satya Krishna Gorti",
+    "goal_text": "Understand the practical aspects of RL in training LMs and building reasoning models.",
+    "goal_html": "<p>Understand the practical aspects of RL in training LMs and building reasoning models.</p>\n",
+    "created_at": "2025-06-16T17:35:18.180995Z",
+    "updated_at": "2025-06-16T17:35:18.180995Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "1dfb3d7abbaf271ab7750b562e9d52b5"
+  },
+  {
+    "message_id": "745da06d-a0ed-43bc-913c-f2beba5b4153",
+    "user_id": "cohort_20383_user_640587",
+    "user_name": "Jay Wengrow",
+    "goal_text": "To gain expertise with agents and MCP",
+    "goal_html": "<p>To gain expertise with agents and MCP</p>\n",
+    "created_at": "2025-06-16T18:41:39.654341Z",
+    "updated_at": "2025-06-16T18:41:39.654341Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "f33a388c1f51022abf5643de9fd8ba85"
+  },
+  {
+    "message_id": "5ce31d0e-ea5e-4f4d-898f-ded196139560",
+    "user_id": "cohort_20383_user_662398",
+    "user_name": "James",
+    "goal_text": "What kind of scaffolding do \"agents\" do best with? How much does this scaffolding change over time? When can you use a smaller model distilled from a larger, and what percentage of SFT on the outputs of the larger model vs RL with the smaller is right? What kinds of tasks benefit from scaffolding, and which continue to suck?",
+    "goal_html": "<p>What kind of scaffolding do “agents” do best with? How much does this scaffolding change over time? When can you use a smaller model distilled from a larger, and what percentage of SFT on the outputs of the larger model vs RL with the smaller is right? What kinds of tasks benefit from scaffolding, and which continue to suck?</p>\n",
+    "created_at": "2025-06-16T19:20:52.244121Z",
+    "updated_at": "2025-06-16T19:20:52.244121Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "eb6e77e7732526a54e4963e547217e02"
+  },
+  {
+    "message_id": "227f5032-045d-43ef-ab62-f0912fd2c74a",
+    "user_id": "cohort_20383_user_646845",
+    "user_name": "Louis Santoro",
+    "goal_text": "Build a prototype of a multiagent system for formal proof verification in Lean 4. Possibly enhance the interpretative side of a research pipeline and start to elaborate a writing pipeline.",
+    "goal_html": "<p>Build a prototype of a multiagent system for formal proof verification in Lean 4. Possibly enhance the interpretative side of a research pipeline and start to elaborate a writing pipeline.</p>\n",
+    "created_at": "2025-06-16T20:12:11.039153Z",
+    "updated_at": "2025-06-16T20:12:11.039153Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "1c34cbf5c7dd9456675824e2b29e5c77"
+  },
+  {
+    "message_id": "cc044762-9c8f-4468-99f5-ae3c8c77879b",
+    "user_id": "cohort_20383_user_233409",
+    "user_name": "Sumita Palanisamy ",
+    "goal_text": "To get hands on experience in agents and mcp!",
+    "goal_html": "<p>To get hands on experience in agents and mcp!</p>\n",
+    "created_at": "2025-06-16T20:54:29.810088Z",
+    "updated_at": "2025-06-16T20:54:29.810088Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "fb54c7465eb61c98cff5dea6366fb5f9"
+  },
+  {
+    "message_id": "02f3cbb9-d7d2-405e-bcfa-54212ad4c5e2",
+    "user_id": "cohort_20383_user_359502",
+    "user_name": "Chris Hugentobler",
+    "goal_text": "To learn how to go from evaluations to a feedback loop to make AI applications better.",
+    "goal_html": "<p>To learn how to go from evaluations to a feedback loop to make AI applications better.</p>\n",
+    "created_at": "2025-06-16T22:16:55.215823Z",
+    "updated_at": "2025-06-16T22:16:55.215823Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "9d353c83481f33ed0c87984acbd36f45"
+  },
+  {
+    "message_id": "f1b53b3f-205a-4c07-9f39-7beeb434bfab",
+    "user_id": "cohort_20383_user_665200",
+    "user_name": "Kachi Odoemene",
+    "goal_text": "Hands-on refresher on RL. Looking forward to building and deploying RL agents.",
+    "goal_html": "<p>Hands-on refresher on RL. Looking forward to building and deploying RL agents.</p>\n",
+    "created_at": "2025-06-17T01:01:33.573937Z",
+    "updated_at": "2025-06-17T01:01:33.573937Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "e6d7f673d90a5954978f865580e7c0c0"
+  },
+  {
+    "message_id": "de34b612-8403-4627-ab02-b524b21471f5",
+    "user_id": "cohort_20383_user_647376",
+    "user_name": "Eric Gradman",
+    "goal_text": "I've now developed several agents for personal and professional use, and my facility with the tools is increasing with each iteration. I want to take it up a notch, and feel as proficient with LLMs as I feel with the tools I've used for years.\n\nI'm particularly excited to learn about how to apply RL to my work, because I sense RL will be integral to making LLMs feel like more than just \"fancy autocomplete!\"",
+    "goal_html": "<p>I’ve now developed several agents for personal and professional use, and my facility with the tools is increasing with each iteration. I want to take it up a notch, and feel as proficient with LLMs as I feel with the tools I’ve used for years.<br/>\n<br/>\nI’m particularly excited to learn about how to apply RL to my work, because I sense RL will be integral to making LLMs feel like more than just “fancy autocomplete!”</p>\n",
+    "created_at": "2025-06-17T01:04:20.145728Z",
+    "updated_at": "2025-06-17T01:04:20.145728Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "1b90f10178af133824b0451ab6406dc2"
+  },
+  {
+    "message_id": "ef1aadd4-c165-4cb9-9872-54db05723694",
+    "user_id": "cohort_20383_user_402175",
+    "user_name": "Ipsita Mohanty",
+    "goal_text": "Learn something new!",
+    "goal_html": "<p>Learn something new!</p>\n",
+    "created_at": "2025-06-17T02:17:35.32304Z",
+    "updated_at": "2025-06-17T02:17:35.32304Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "4875970931233f4d32c6d38e3121418d"
+  },
+  {
+    "message_id": "9cac01e7-af70-4eb1-aa01-7fdadc9000ae",
+    "user_id": "cohort_20383_user_647597",
+    "user_name": "Jake Nations",
+    "goal_text": "My goals for the course are learning more about RL and applying it to agents.",
+    "goal_html": "<p>My goals for the course are learning more about RL and applying it to agents.</p>\n",
+    "created_at": "2025-06-17T03:40:35.238341Z",
+    "updated_at": "2025-06-17T03:40:35.238341Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "3f19df7078b5c8b6d044c4aadd78d4c2"
+  },
+  {
+    "message_id": "f8653a71-3f26-46a6-bb2c-fba01b59e719",
+    "user_id": "cohort_20383_user_337796",
+    "user_name": "Sairam Chitreddy",
+    "goal_text": "Get a foundation about RLVR and learn how to apply it to my use cases",
+    "goal_html": "<p>Get a foundation about RLVR and learn how to apply it to my use cases</p>\n",
+    "created_at": "2025-06-17T04:02:09.466265Z",
+    "updated_at": "2025-06-17T04:02:09.466265Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "0a3dff272d66e2fd2731bf7b3c7f919a"
+  },
+  {
+    "message_id": "d2533ad9-ace3-4250-8090-da0f8f14b056",
+    "user_id": "cohort_20383_user_495458",
+    "user_name": "Mars",
+    "goal_text": "Identify a practical use case where an agent would be more effective than static code. Build the agent. Evaluate the agent. Fine-tune it using RL. Re-eval. Success.\n\nI’ve some exp in building an agentic RAG, but want to deep dive into fundamental concepts and gain expertise.",
+    "goal_html": "<p>Identify a practical use case where an agent would be more effective than static code. Build the agent. Evaluate the agent. Fine-tune it using RL. Re-eval. Success.<br/>\n<br/>\nI’ve some exp in building an agentic RAG, but want to deep dive into fundamental concepts and gain expertise.</p>\n",
+    "created_at": "2025-06-17T04:36:35.213616Z",
+    "updated_at": "2025-06-17T05:08:19.444851Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "38a9cf80094fbacb7f9b671a1e0d3456"
+  },
+  {
+    "message_id": "271429cf-8fd3-4d6c-9974-3a4b9a0e244a",
+    "user_id": "cohort_20383_user_663062",
+    "user_name": "Pratyush R Tiwari",
+    "goal_text": "Be able to do reinforcement fine-tuning for problems I care about on small models  \n  \nBe able to improve on papers like this with more compute [https://socialdeductionllm.github.io/](https://socialdeductionllm.github.io/)",
+    "goal_html": "<p>Be able to do reinforcement fine-tuning for problems I care about on small models  <br/>\n  <br/>\nBe able to improve on papers like this with more compute <a href=\"https://socialdeductionllm.github.io/\" rel=\"nofollow\">https://socialdeductionllm.github.io/</a></p>\n",
+    "created_at": "2025-06-17T04:57:56.485329Z",
+    "updated_at": "2025-06-17T05:08:15.887561Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "c10746cdb47ce633b9d149e33680da25"
+  },
+  {
+    "message_id": "90c0d31a-2942-44a8-9a8b-73016d755cbe",
+    "user_id": "cohort_20383_user_660142",
+    "user_name": "Michał Barrington",
+    "goal_text": "Goal(s):\n\n1) Master the art of building smart(er) agents\n\n2) Become more accustomed with the concept of MCP and start utilising it more\n\n3) Get hands-on experience with RL, beyond pure theory\n\n4) Understand best practices in the field\n\nPersonal project I'd like to improve:\n\nTake the gained knowledge and Implement an agent as a 'home assistant' mainly to control my smart-lights env lol (siri is extremely limited and I refuse to pay for additional hardware to unlock the full potential if the API is freely available).\n\nChange my current approach of (struggling to implement a) wake-word detection model -> transcribe -> detect command -> use relevant func\n\ninto\n\nvoice2text -> agent -> tool usage",
+    "goal_html": "<p>Goal(s):<br/>\n<br/>\n1) Master the art of building smart(er) agents<br/>\n<br/>\n2) Become more accustomed with the concept of MCP and start utilising it more<br/>\n<br/>\n3) Get hands-on experience with RL, beyond pure theory<br/>\n<br/>\n4) Understand best practices in the field<br/>\n<br/>\nPersonal project I’d like to improve:<br/>\n<br/>\nTake the gained knowledge and Implement an agent as a ‘home assistant’ mainly to control my smart-lights env lol (siri is extremely limited and I refuse to pay for additional hardware to unlock the full potential if the API is freely available).<br/>\n<br/>\nChange my current approach of (struggling to implement a) wake-word detection model -&gt; transcribe -&gt; detect command -&gt; use relevant func<br/>\n<br/>\ninto<br/>\n<br/>\nvoice2text -&gt; agent -&gt; tool usage</p>\n",
+    "created_at": "2025-06-16T09:48:49.457065Z",
+    "updated_at": "2025-06-16T16:24:10.028281Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "1920709faae3a354acdf1bc8d6b484e6"
+  },
+  {
+    "message_id": "c946994f-ed74-4dc0-aa7f-7f600cf73a7a",
+    "user_id": "cohort_20383_user_647076",
+    "user_name": "Denis Wambold",
+    "goal_text": "Learn more about Agents, MCP, best practices and get deep into RL and the theoretical part behind it.",
+    "goal_html": "<p>Learn more about Agents, MCP, best practices and get deep into RL and the theoretical part behind it.</p>\n",
+    "created_at": "2025-06-16T09:58:15.589444Z",
+    "updated_at": "2025-06-16T16:23:55.464597Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "37c62aa1d2d94c2702bf5b758d3998d0"
+  },
+  {
+    "message_id": "bc812a9a-dbb2-4709-89d5-fa5192541767",
+    "user_id": "cohort_20383_user_648206",
+    "user_name": "Victor Adafinoaiei ",
+    "goal_text": "Learn and apply RL model fine tuning for a PoC and expand.",
+    "goal_html": "<p>Learn and apply RL model fine tuning for a PoC and expand.</p>\n",
+    "created_at": "2025-06-16T10:47:58.538358Z",
+    "updated_at": "2025-06-16T16:23:53.749548Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "68e2d4d09e9788b173b1aad77e2e9db3"
+  },
+  {
+    "message_id": "afc032f2-0f66-4057-80e9-c74e533128b8",
+    "user_id": "cohort_20383_user_664556",
+    "user_name": "Julian - Thomas Erdoedy",
+    "goal_text": "to learn practical implementations of developing performant agent-based systems, products, or services, with real-world examples.\n\nto have the opportunity to exchange with like-minds, perhaps engage in mutual projects and learn as much as possible from the frontier of RL-optimised agentic systems.",
+    "goal_html": "<p>to learn practical implementations of developing performant agent-based systems, products, or services, with real-world examples.<br/>\n<br/>\nto have the opportunity to exchange with like-minds, perhaps engage in mutual projects and learn as much as possible from the frontier of RL-optimised agentic systems.</p>\n",
+    "created_at": "2025-06-16T11:47:22.845452Z",
+    "updated_at": "2025-06-16T16:23:57.423755Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "22012f363f4c0122dbde1de099cf2360"
+  },
+  {
+    "message_id": "6fd14df2-f54d-4bfd-bf68-0431d99ae14a",
+    "user_id": "cohort_20383_user_646892",
+    "user_name": "Antonin Couturier",
+    "goal_text": "Have enough understanding of MCP and GRPO to start building with those in prod",
+    "goal_html": "<p>Have enough understanding of MCP and GRPO to start building with those in prod</p>\n",
+    "created_at": "2025-06-16T12:31:35.928366Z",
+    "updated_at": "2025-06-16T16:23:59.736423Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "de89215128094ff84cd3c8110a988963"
+  },
+  {
+    "message_id": "6e3b004e-f4da-40d4-b2f2-8acad8935be1",
+    "user_id": "cohort_20383_user_647712",
+    "user_name": "Isfandiyar Shaheen",
+    "goal_text": "Use reinforcement learning in an MCP Client-Server combo I've made to improve both retrieval and synthesis",
+    "goal_html": "<p>Use reinforcement learning in an MCP Client-Server combo I’ve made to improve both retrieval and synthesis</p>\n",
+    "created_at": "2025-06-16T12:31:53.766062Z",
+    "updated_at": "2025-06-16T16:24:01.501681Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "04873dfe00a6bbeace7c9140b30ad319"
+  },
+  {
+    "message_id": "3b02e6ab-5f14-4c91-bbbf-b6c17dcc2505",
+    "user_id": "cohort_20383_user_649067",
+    "user_name": "Ilija Lichkovski",
+    "goal_text": "*   Learn to hill-climb narrow domains with agentic RL (medical diagnoses, for instance)\n    \n*   Learn from folks about their ideas!",
+    "goal_html": "<ul>\n<li>Learn to hill-climb narrow domains with agentic RL (medical diagnoses, for instance)<br/>\n<br/>\n</li>\n<li>Learn from folks about their ideas!</li>\n</ul>\n",
+    "created_at": "2025-06-16T12:34:52.440895Z",
+    "updated_at": "2025-06-16T16:24:04.231231Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "fceb63f1f9a65f79598edf24e70d8512"
+  },
+  {
+    "message_id": "25b57e97-334e-4fad-b2ff-305f3e86fd8c",
+    "user_id": "cohort_20383_user_24012",
+    "user_name": "Adi Pradhan",
+    "goal_text": "I'm building [Socratify](https://www.socratify.com/), an [AI coach for professional upskilling](https://www.socratify.com/) in an AI native world with a focus on critical thinking and communication skills  \n  \nI want to get to the next echelon of performance on various tasks and believe agentic workflows + some RL will be massively impactful",
+    "goal_html": "<p>I’m building <a href=\"https://www.socratify.com/\" rel=\"nofollow\">Socratify</a>, an <a href=\"https://www.socratify.com/\" rel=\"nofollow\">AI coach for professional upskilling</a> in an AI native world with a focus on critical thinking and communication skills  <br/>\n  <br/>\nI want to get to the next echelon of performance on various tasks and believe agentic workflows + some RL will be massively impactful</p>\n",
+    "created_at": "2025-06-16T12:59:43.581805Z",
+    "updated_at": "2025-06-16T16:23:45.811112Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "a2489495b92ebda68ba9c76e8a8591ff"
+  },
+  {
+    "message_id": "78ab3580-22e7-48c0-85f3-8a2bc39d03ff",
+    "user_id": "cohort_20383_user_665546",
+    "user_name": "Harry Jackson",
+    "goal_text": "Fine-tune a small reasoning model to perform some non-trivial task well.",
+    "goal_html": "<p>Fine-tune a small reasoning model to perform some non-trivial task well.</p>\n",
+    "created_at": "2025-06-16T13:25:26.87028Z",
+    "updated_at": "2025-06-16T16:23:42.480676Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "adbc925c145176c8694725b284cc5e74"
+  },
+  {
+    "message_id": "9d936d55-6a94-4ee6-8311-bce2f3a5fbc4",
+    "user_id": "cohort_20383_user_651280",
+    "user_name": "Troy Prebenda",
+    "goal_text": "Learn about best practices for MCP + RL in AI-based apps.",
+    "goal_html": "<p>Learn about best practices for MCP + RL in AI-based apps.</p>\n",
+    "created_at": "2025-06-16T13:57:50.915726Z",
+    "updated_at": "2025-06-16T16:23:41.049515Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "51094362eee147e6a103d1dcf7a5c76b"
+  },
+  {
+    "message_id": "08c6c28a-4a0e-4594-872a-806e8b9f0f1e",
+    "user_id": "cohort_20383_user_601555",
+    "user_name": "Hendrik Reh",
+    "goal_text": "**My goals for this course**\n\n1.  **Ship an agentic proof-of-concept**\n    \n2.  **Master the nuts-and-bolts of MCP + RL**\n    \n3.  **Harvest battle-tested patterns from the cohort**\n    \n4.  **Spark future collabs**",
+    "goal_html": "<p><strong>My goals for this course</strong><br/>\n<br/>\n1.  <strong>Ship an agentic proof-of-concept</strong><br/>\n    <br/>\n2.  <strong>Master the nuts-and-bolts of MCP + RL</strong><br/>\n    <br/>\n3.  <strong>Harvest battle-tested patterns from the cohort</strong><br/>\n    <br/>\n4.  <strong>Spark future collabs</strong></p>\n",
+    "created_at": "2025-06-14T07:37:40.202812Z",
+    "updated_at": "2025-06-16T04:13:08.375623Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "clap": 1,
+      "heart": 1
+    },
+    "dedup_hash": "42df506ddc678dbf1b37c9ec86bb4e44"
+  },
+  {
+    "message_id": "f9344b3d-cb53-41b2-bcc0-ebaf04ccaf1d",
+    "user_id": "cohort_20383_user_661301",
+    "user_name": "Vishal Goklani",
+    "goal_text": "To train an AI from scratch (no external libraries like TRL etc) that properly uses reinforcement learning to solve puzzles. The emphasis here is \"from scratch\" and working through all the finer details. I went to school in physics/math, but I find that I'm missing a few pieces when reading through the literature. Thanks!",
+    "goal_html": "<p>To train an AI from scratch (no external libraries like TRL etc) that properly uses reinforcement learning to solve puzzles. The emphasis here is “from scratch” and working through all the finer details. I went to school in physics/math, but I find that I’m missing a few pieces when reading through the literature. Thanks!</p>\n",
+    "created_at": "2025-06-15T12:49:11.703997Z",
+    "updated_at": "2025-06-16T04:13:10.046415Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1,
+      "clap": 1
+    },
+    "dedup_hash": "036b2e308dd76d2fbae5d9818c059bf8"
+  },
+  {
+    "message_id": "3d5d8b47-a012-4c87-bf2e-012a710d2fd1",
+    "user_id": "cohort_20383_user_373752",
+    "user_name": "Eddy Atkins",
+    "goal_text": "I want help being able to define business tasks in the context of verifiable RL/Agentic systems",
+    "goal_html": "<p>I want help being able to define business tasks in the context of verifiable RL/Agentic systems</p>\n",
+    "created_at": "2025-06-15T14:36:25.350794Z",
+    "updated_at": "2025-06-16T04:13:36.701804Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "clap": 1,
+      "heart": 1
+    },
+    "dedup_hash": "36194a7e44fdd4e7d5a41b1e7a2c45a6"
+  },
+  {
+    "message_id": "23963258-cd99-491a-9812-b41f85f2c9e7",
+    "user_id": "cohort_20383_user_321525",
+    "user_name": "Swetha Ganesan",
+    "goal_text": "Learn about MCP and RL and how to bring those into my product.\n\nLearn about the gotchas and best practices to support enterprises before building",
+    "goal_html": "<p>Learn about MCP and RL and how to bring those into my product.<br/>\n<br/>\nLearn about the gotchas and best practices to support enterprises before building</p>\n",
+    "created_at": "2025-06-15T15:46:47.851197Z",
+    "updated_at": "2025-06-16T04:13:39.079865Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1,
+      "clap": 2
+    },
+    "dedup_hash": "36dc21471d8a7e163b1b2728d4fa6693"
+  },
+  {
+    "message_id": "fdb3a6c5-5a90-4b99-b691-2ea9b11c5f6d",
+    "user_id": "cohort_20383_user_370261",
+    "user_name": "Anoop",
+    "goal_text": "1.  bootstrap on agentic RL via hands on\n    \n2.  tradeoffs - when and when not to use agentic RL\n    \n3.  make connections",
+    "goal_html": "<ol>\n<li>bootstrap on agentic RL via hands on<br/>\n<br/>\n</li>\n<li>tradeoffs - when and when not to use agentic RL<br/>\n<br/>\n</li>\n<li>make connections</li>\n</ol>\n",
+    "created_at": "2025-06-15T16:04:33.431367Z",
+    "updated_at": "2025-06-16T04:13:42.032281Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "28ae6a8db55c1a30cf2e7d7d32330df9"
+  },
+  {
+    "message_id": "109fb038-a90a-41f8-9c7f-d417a3e08f98",
+    "user_id": "cohort_20383_user_261267",
+    "user_name": "Rishad Bharucha",
+    "goal_text": "Ship an RL agent system and MCP.",
+    "goal_html": "<p>Ship an RL agent system and MCP.</p>\n",
+    "created_at": "2025-06-15T16:54:29.969436Z",
+    "updated_at": "2025-06-16T04:13:45.182887Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "8446bbba584dd69b81af19d9324a8d51"
+  },
+  {
+    "message_id": "b113b75c-d79a-413b-abc8-b019de937986",
+    "user_id": "cohort_20383_user_649681",
+    "user_name": "Arihant Jain",
+    "goal_text": "**Ship an agentic poc. Learn about MCP + RL and real world applications**",
+    "goal_html": "<p><strong>Ship an agentic poc. Learn about MCP + RL and real world applications</strong></p>\n",
+    "created_at": "2025-06-15T17:17:41.25692Z",
+    "updated_at": "2025-06-16T04:13:47.259203Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "38f8b915f2091acdd3b0dd0ccd4e0d58"
+  },
+  {
+    "message_id": "9a6d6d55-630c-4a10-80d2-8ce1606d5de5",
+    "user_id": "cohort_20383_user_664017",
+    "user_name": "Jhordan",
+    "goal_text": "build a real time online learning system with custom metrics and rewards",
+    "goal_html": "<p>build a real time online learning system with custom metrics and rewards</p>\n",
+    "created_at": "2025-06-15T17:41:21.354116Z",
+    "updated_at": "2025-06-16T04:13:49.763153Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1,
+      "clap": 1
+    },
+    "dedup_hash": "7223e84633a076849b67501f0e4edfa2"
+  },
+  {
+    "message_id": "3d3ecbef-dffb-4fe0-aa1e-d2f8d1a55d09",
+    "user_id": "cohort_20383_user_648248",
+    "user_name": "sam",
+    "goal_text": "I want to refresh myself on AI concepts and prepare for AI engineering interviews, while learning helpful cutting edge science.",
+    "goal_html": "<p>I want to refresh myself on AI concepts and prepare for AI engineering interviews, while learning helpful cutting edge science.</p>\n",
+    "created_at": "2025-06-15T17:48:16.232067Z",
+    "updated_at": "2025-06-16T04:14:00.427112Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "415dfdf6aaffa1679f9ef3fba4ce2bca"
+  },
+  {
+    "message_id": "87149458-c8e9-44a9-a860-ff3923bd11ad",
+    "user_id": "cohort_20383_user_474582",
+    "user_name": "Aswin Bhaskaran",
+    "goal_text": "Training a LLM with RL-GRPO which would eventually aid the agent which I am working on to self improve wherein the system observes its own performance and verify its own results without human interactions.",
+    "goal_html": "<p>Training a LLM with RL-GRPO which would eventually aid the agent which I am working on to self improve wherein the system observes its own performance and verify its own results without human interactions.</p>\n",
+    "created_at": "2025-06-16T00:08:03.676049Z",
+    "updated_at": "2025-06-16T00:08:03.676049Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "ebbb27ffd652b2fb6cfc2e840eaa4e9d"
+  },
+  {
+    "message_id": "90264863-b43a-467c-bed6-ed3741a1b4d4",
+    "user_id": "cohort_20383_user_646927",
+    "user_name": "Jash Vira",
+    "goal_text": "*   Garner intuition on the usage of Policy Gradient-based algorithms in the wild.\n    \n*   Understand agentic system tradeoffs and their ability to scale.\n    \n*   Get familiar with the space of possible tools and industry-accepted frameworks.",
+    "goal_html": "<ul>\n<li>Garner intuition on the usage of Policy Gradient-based algorithms in the wild.<br/>\n<br/>\n</li>\n<li>Understand agentic system tradeoffs and their ability to scale.<br/>\n<br/>\n</li>\n<li>Get familiar with the space of possible tools and industry-accepted frameworks.</li>\n</ul>\n",
+    "created_at": "2025-06-16T01:48:09.604589Z",
+    "updated_at": "2025-06-16T01:48:09.604589Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "3349e0e0a43b08885dac6df7bbead114"
+  },
+  {
+    "message_id": "e6a74e71-3048-419e-9016-09ce76165f27",
+    "user_id": "cohort_20383_user_611955",
+    "user_name": "Pierre S",
+    "goal_text": "*   Understand RL at a practical/fundamental level to follow conversations and help steer technical reviews.\n    \n*   Build some agents of my own and understand when to apply RL to improve them (pros and cons).",
+    "goal_html": "<ul>\n<li>Understand RL at a practical/fundamental level to follow conversations and help steer technical reviews.<br/>\n<br/>\n</li>\n<li>Build some agents of my own and understand when to apply RL to improve them (pros and cons).</li>\n</ul>\n",
+    "created_at": "2025-06-16T01:57:35.691453Z",
+    "updated_at": "2025-06-16T16:24:41.566382Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "96d60d8f3ee23a01cfd248843fc1968a"
+  },
+  {
+    "message_id": "8da46158-5916-42e0-a9d5-7479f0fe24af",
+    "user_id": "cohort_20383_user_271220",
+    "user_name": "Jeff Fedor",
+    "goal_text": "skip a lot of banging my head against the wall",
+    "goal_html": "<p>skip a lot of banging my head against the wall</p>\n",
+    "created_at": "2025-06-16T02:08:38.50077Z",
+    "updated_at": "2025-06-16T04:12:58.306822Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "497b548c42a340ec8d2eb72c5fb76277"
+  },
+  {
+    "message_id": "46548c0c-57a3-4a64-b7bc-87dec934d689",
+    "user_id": "cohort_20383_user_403703",
+    "user_name": "Trivan Menezes",
+    "goal_text": "Get an intuition around using RL and adapting RFT pipelines to get effective, robust model fine-tunes that are productionizable. I've been messing with GRPO on a small qwen model but am still working on defining the reward functions correctly enough to get the reward to increase well.",
+    "goal_html": "<p>Get an intuition around using RL and adapting RFT pipelines to get effective, robust model fine-tunes that are productionizable. I’ve been messing with GRPO on a small qwen model but am still working on defining the reward functions correctly enough to get the reward to increase well.</p>\n",
+    "created_at": "2025-06-16T02:25:21.941075Z",
+    "updated_at": "2025-06-16T04:12:56.381138Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "cfbfe8f722f741762d05e777ed52c183"
+  },
+  {
+    "message_id": "0ae35fac-8cfd-49dd-b2b9-5ac68c999fd3",
+    "user_id": "cohort_20383_user_660602",
+    "user_name": "Sumeet Khullar",
+    "goal_text": "Learn how and when to apply reinforcement learning to train my own models in specific domains",
+    "goal_html": "<p>Learn how and when to apply reinforcement learning to train my own models in specific domains</p>\n",
+    "created_at": "2025-06-16T03:34:17.850797Z",
+    "updated_at": "2025-06-16T16:24:17.247019Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "514ba01c4d72b6a9bf7ff02a4e5aab28"
+  },
+  {
+    "message_id": "25bdd41e-688e-469b-bef0-8e9b2a62c3dd",
+    "user_id": "cohort_20383_user_646768",
+    "user_name": "Zane Peycke",
+    "goal_text": "1.  Learn best practices for RL by working through examples in and hearing directly from Will and Kyle, understanding when it's beneficial to attempt RL or use an existing model. I've been thinking about applying this to a small model to efficiently route between a finite set of tools and run on an edge device.\n    \n2.  Better evals for agents and multi agent systems. What we do now is not good enough and I want to make a much better effort building evals into early stages of our applications.\n    \n3.  Build something without exclusively relying on openai models, I've gotten really used to things like structured output and want to expand my horizons and try to refresh my thinking on agent design.",
+    "goal_html": "<ol>\n<li>Learn best practices for RL by working through examples in and hearing directly from Will and Kyle, understanding when it’s beneficial to attempt RL or use an existing model. I’ve been thinking about applying this to a small model to efficiently route between a finite set of tools and run on an edge device.<br/>\n<br/>\n</li>\n<li>Better evals for agents and multi agent systems. What we do now is not good enough and I want to make a much better effort building evals into early stages of our applications.<br/>\n<br/>\n</li>\n<li>Build something without exclusively relying on openai models, I’ve gotten really used to things like structured output and want to expand my horizons and try to refresh my thinking on agent design.</li>\n</ol>\n",
+    "created_at": "2025-06-16T03:38:26.832411Z",
+    "updated_at": "2025-06-16T04:12:45.021356Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "17a6a4a21d9741277cbe9c2f5181cd9b"
+  },
+  {
+    "message_id": "3b3edf0e-aabd-4bcc-a8dd-86b01ebcdf13",
+    "user_id": "cohort_20383_user_648520",
+    "user_name": "Nick DeLuca",
+    "goal_text": "My goal is to get hands on experience building, evaluating, and refining agentic systems.",
+    "goal_html": "<p>My goal is to get hands on experience building, evaluating, and refining agentic systems.</p>\n",
+    "created_at": "2025-06-16T03:49:41.296056Z",
+    "updated_at": "2025-06-16T04:12:42.905474Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "e68f93660cedde38770e250976933bd3"
+  },
+  {
+    "message_id": "409a167d-ac0e-415e-8b99-895e0e46226c",
+    "user_id": "cohort_20383_user_661635",
+    "user_name": "Tejas Shah",
+    "goal_text": "Understand what it takes to productionize models that truly learn",
+    "goal_html": "<p>Understand what it takes to productionize models that truly learn</p>\n",
+    "created_at": "2025-06-16T04:12:08.344889Z",
+    "updated_at": "2025-06-16T04:12:40.981578Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "b8a42fad582d594fdd94b0e981aabf59"
+  },
+  {
+    "message_id": "d7f6c425-0df5-42d5-842f-8fe26d97a09d",
+    "user_id": "cohort_20383_user_648833",
+    "user_name": "Alec Sharp",
+    "goal_text": "Topics:\n\n1.  Agent Evals\n    \n2.  Formulating RL problems\n    \n\nTakeaways:\n\n1.  Transfer some learnings to my current project/work\n    \n2.  Meet some cool people, hear some new perspectives\n    \n3.  Avoid failure modes others have already ran into",
+    "goal_html": "<p>Topics:<br/>\n<br/>\n1.  Agent Evals<br/>\n    <br/>\n2.  Formulating RL problems<br/>\n    <br/>\n<br/>\nTakeaways:<br/>\n<br/>\n1.  Transfer some learnings to my current project/work<br/>\n    <br/>\n2.  Meet some cool people, hear some new perspectives<br/>\n    <br/>\n3.  Avoid failure modes others have already ran into</p>\n",
+    "created_at": "2025-06-16T04:55:15.395Z",
+    "updated_at": "2025-06-16T16:24:13.239441Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "331a0651bda0184f729ce32c4d155223"
+  },
+  {
+    "message_id": "a45adee3-0167-473b-b3e4-303a2ea377e4",
+    "user_id": "cohort_20383_user_282881",
+    "user_name": "Venkatesh Ramasamy",
+    "goal_text": "To build a MVP using AI Agent",
+    "goal_html": "<p>To build a MVP using AI Agent</p>\n",
+    "created_at": "2025-06-15T18:01:51.269278Z",
+    "updated_at": "2025-06-16T04:13:59.043438Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "245cb6282ead6cd33b3e0db24c44a976"
+  },
+  {
+    "message_id": "7364f0fb-3fe5-4942-bdc0-848bfc2c9271",
+    "user_id": "cohort_20383_user_625940",
+    "user_name": "Mahdi Sadjadi",
+    "goal_text": "1 - Learning RL+Agents fundamentals\n\n2 - Building a POC to solidify my learning (with emphasis on system design and implementation details in production environments)\n\n3 - Applying my learnings to products at my current job (advertising)\n\n4 - Applying these ideas to my personal work in scientific discovery (physics/materials design/math).",
+    "goal_html": "<p>1 - Learning RL+Agents fundamentals<br/>\n<br/>\n2 - Building a POC to solidify my learning (with emphasis on system design and implementation details in production environments)<br/>\n<br/>\n3 - Applying my learnings to products at my current job (advertising)<br/>\n<br/>\n4 - Applying these ideas to my personal work in scientific discovery (physics/materials design/math).</p>\n",
+    "created_at": "2025-06-15T18:21:04.084476Z",
+    "updated_at": "2025-06-16T04:14:03.131435Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "7d871693ff27968055f14019f36b175d"
+  },
+  {
+    "message_id": "4344400a-4e8c-477b-bbd6-1bd68e9d0add",
+    "user_id": "cohort_20383_user_572657",
+    "user_name": "Fernando Meira",
+    "goal_text": "**My goals are to:**\n\n*   Explore best-practice MCP implementations, especially those leveraging custom APIs and data.\n    \n*   Learn how to integrate reinforcement learning into custom tasks and apply it across my current projects and products.",
+    "goal_html": "<p><strong>My goals are to:</strong><br/>\n<br/>\n*   Explore best-practice MCP implementations, especially those leveraging custom APIs and data.<br/>\n    <br/>\n*   Learn how to integrate reinforcement learning into custom tasks and apply it across my current projects and products.</p>\n",
+    "created_at": "2025-06-15T18:36:54.134923Z",
+    "updated_at": "2025-06-16T04:14:09.956232Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "9d8910fa4bbb9e637064384862a95369"
+  },
+  {
+    "message_id": "969cb367-1511-4039-bfb8-cc842678af6b",
+    "user_id": "cohort_20383_user_665158",
+    "user_name": "Henry Cunnison",
+    "goal_text": "I have a background in RL and Natural Language Processing, but up to now I've not really explored the two together. It seems obvious to me that at a high level RL is a good way to optimise multi-turn agentic scenarios, but I'm not really clear how to do this in practice. I'm hoping to get stuck into really doing this as part of the course. I'm also looking to get more familiar with methods to upgrade agentic systems from \"cool demos\" to something that's properly production ready like MCP.",
+    "goal_html": "<p>I have a background in RL and Natural Language Processing, but up to now I’ve not really explored the two together. It seems obvious to me that at a high level RL is a good way to optimise multi-turn agentic scenarios, but I’m not really clear how to do this in practice. I’m hoping to get stuck into really doing this as part of the course. I’m also looking to get more familiar with methods to upgrade agentic systems from “cool demos” to something that’s properly production ready like MCP.</p>\n",
+    "created_at": "2025-06-15T18:41:54.025019Z",
+    "updated_at": "2025-06-16T04:14:11.945876Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "78dd237e380ac84268ab63069a2c9f6a"
+  },
+  {
+    "message_id": "47226f78-3466-4770-ab5f-519cbda1661f",
+    "user_id": "cohort_20383_user_651462",
+    "user_name": "Anne Rolim",
+    "goal_text": "*   Learn deeply about agent frameworks, pros and cons and how/if they can be implemented into real / live business cases.\n    \n*   Get a better understanding of how these can disrupt current architectures and a perspective on how the field is developing.",
+    "goal_html": "<ul>\n<li>Learn deeply about agent frameworks, pros and cons and how/if they can be implemented into real / live business cases.<br/>\n<br/>\n</li>\n<li>Get a better understanding of how these can disrupt current architectures and a perspective on how the field is developing.</li>\n</ul>\n",
+    "created_at": "2025-06-15T19:03:39.211187Z",
+    "updated_at": "2025-06-16T16:24:46.01956Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "94720c5c1c8dd6a9662dd94064b2756d"
+  },
+  {
+    "message_id": "09a28f62-5a61-4654-ab6c-0655db38452c",
+    "user_id": "cohort_20383_user_379114",
+    "user_name": "Olivier Nguyen",
+    "goal_text": "*   Understand when and how to use RL to train agents\n    \n*   Train agents to better use custom tools for a domain specific task",
+    "goal_html": "<ul>\n<li>Understand when and how to use RL to train agents<br/>\n<br/>\n</li>\n<li>Train agents to better use custom tools for a domain specific task</li>\n</ul>\n",
+    "created_at": "2025-06-15T19:40:18.892117Z",
+    "updated_at": "2025-06-16T16:24:47.59668Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "1f6329568e3cdeab59ea6c9036a66fb5"
+  },
+  {
+    "message_id": "c35afe96-044b-41fd-b894-b7804a5f11c1",
+    "user_id": "cohort_20383_user_664853",
+    "user_name": "Adamya Singh",
+    "goal_text": "I want to be able to train some simple agents for business tasks by the end of the course, to give me a jumping off point to learn to create more complex and useful agentic software.",
+    "goal_html": "<p>I want to be able to train some simple agents for business tasks by the end of the course, to give me a jumping off point to learn to create more complex and useful agentic software.</p>\n",
+    "created_at": "2025-06-15T19:53:11.205225Z",
+    "updated_at": "2025-06-16T16:24:49.635647Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "543f4efe47f4a3d975806c2ae6728616"
+  },
+  {
+    "message_id": "f3813198-1fe8-44bb-aa60-d398d4e323f7",
+    "user_id": "cohort_20383_user_135227",
+    "user_name": "Tarun Kumar Davuluri",
+    "goal_text": "Being able to ship agents in production",
+    "goal_html": "<p>Being able to ship agents in production</p>\n",
+    "created_at": "2025-06-15T20:52:54.458232Z",
+    "updated_at": "2025-06-16T16:24:52.072487Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "33eaf519867f0a4811bc37b13996673c"
+  },
+  {
+    "message_id": "e37a6787-c357-4513-9bd6-3a9ce61dd8b5",
+    "user_id": "cohort_20383_user_315528",
+    "user_name": "vatsal bharti",
+    "goal_text": "Goals :\n\n1\\. Develop Production level Agents in conversational AI Space.\n\n2\\. Learn enough RL to train custom tools\n\n3\\. How to develop RL-Agent ideas in any domain",
+    "goal_html": "<p>Goals :<br/>\n<br/>\n1. Develop Production level Agents in conversational AI Space.<br/>\n<br/>\n2. Learn enough RL to train custom tools<br/>\n<br/>\n3. How to develop RL-Agent ideas in any domain</p>\n",
+    "created_at": "2025-06-15T22:15:00.209041Z",
+    "updated_at": "2025-06-16T16:24:53.603506Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "47505430855b37b3c5dad457a578461d"
+  },
+  {
+    "message_id": "fbe85519-cedd-4789-903d-c4b8b5d276ec",
+    "user_id": "cohort_20383_user_647604",
+    "user_name": "Ari Pritchard-Bell",
+    "goal_text": "Implement MCP for real world applications and learn how to optimize agentic workflows with RL.",
+    "goal_html": "<p>Implement MCP for real world applications and learn how to optimize agentic workflows with RL.</p>\n",
+    "created_at": "2025-06-15T23:47:14.64491Z",
+    "updated_at": "2025-06-16T16:24:55.713391Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {
+      "heart": 1
+    },
+    "dedup_hash": "b60334887c9568189bbc25793e278465"
+  },
+  {
+    "message_id": "d1a31ab8-9a98-42dd-9f5b-ca038637cb0e",
+    "user_id": "cohort_20383_user_649122",
+    "user_name": "Neil Brockett",
+    "goal_text": "Understand how RL can be used in agentic AI",
+    "goal_html": "<p>Understand how RL can be used in agentic AI</p>\n",
+    "created_at": "2025-06-17T11:00:27.891589Z",
+    "updated_at": "2025-06-17T11:00:27.891589Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "6857d8a59b5c25612b72549b81fe504d"
+  },
+  {
+    "message_id": "b4cd4212-37a4-4785-9fe3-60f08e496e4b",
+    "user_id": "cohort_20383_user_594657",
+    "user_name": "Kori Rogers",
+    "goal_text": "publish a paper after!",
+    "goal_html": "<p>publish a paper after!</p>\n",
+    "created_at": "2025-06-17T12:43:28.846973Z",
+    "updated_at": "2025-06-17T12:43:28.846973Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "0bf4c95374e17f8e854708c786f89ece"
+  },
+  {
+    "message_id": "fe3d8475-f639-46b4-9904-081b38cb74c3",
+    "user_id": "cohort_20383_user_404264",
+    "user_name": "Bolatbek",
+    "goal_text": "Learn to build things I can offer commercially and make for living off of it",
+    "goal_html": "<p>Learn to build things I can offer commercially and make for living off of it</p>\n",
+    "created_at": "2025-06-17T16:51:51.60261Z",
+    "updated_at": "2025-06-17T16:51:51.60261Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "725d1056138427e279791e9185b1fa40"
+  },
+  {
+    "message_id": "56b6cabb-56e9-4014-9867-b89da07be331",
+    "user_id": "cohort_20383_user_664936",
+    "user_name": "Yenchia Feng",
+    "goal_text": "Stay up-to-date with the latest AI practices.",
+    "goal_html": "<p>Stay up-to-date with the latest AI practices.</p>\n",
+    "created_at": "2025-06-17T17:49:31.325703Z",
+    "updated_at": "2025-06-17T17:49:31.325703Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "9d2b9971b22efeaee95ba5b55ef92435"
+  },
+  {
+    "message_id": "ef4d34b3-d61f-41c9-9791-3c8c91888ac0",
+    "user_id": "cohort_20383_user_648920",
+    "user_name": "Darin kishore",
+    "goal_text": "Figure out what the scope of RL-able tasks you can achieve semi-straightforwardly would be rn. More intuition on hyperparams and how to do successful training runs.",
+    "goal_html": "<p>Figure out what the scope of RL-able tasks you can achieve semi-straightforwardly would be rn. More intuition on hyperparams and how to do successful training runs.</p>\n",
+    "created_at": "2025-06-17T19:11:22.823293Z",
+    "updated_at": "2025-06-17T19:11:22.823293Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "1ed2a0529086330de3617fb999b527b6"
+  },
+  {
+    "message_id": "00688f32-01dc-4b03-b71f-6734f32bdb62",
+    "user_id": "cohort_20383_user_373161",
+    "user_name": "Mikhail Chrestkha",
+    "goal_text": "*   Learn more about post-training techniques and how they can be used to improve application / agent behavior\n    \n*   Learn more about use cases and common workflows for MCP and connecting LLMs to data & systems",
+    "goal_html": "<ul>\n<li>Learn more about post-training techniques and how they can be used to improve application / agent behavior<br/>\n<br/>\n</li>\n<li>Learn more about use cases and common workflows for MCP and connecting LLMs to data &amp; systems</li>\n</ul>\n",
+    "created_at": "2025-06-17T19:22:01.118803Z",
+    "updated_at": "2025-06-17T19:22:01.118803Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "c62716e20d6e787391b1adf78005dd41"
+  },
+  {
+    "message_id": "43a2cdd8-831a-48ee-afc9-15a68714f772",
+    "user_id": "cohort_20383_user_365153",
+    "user_name": "Matt Ellsworth",
+    "goal_text": "Train my first reasoning model.",
+    "goal_html": "<p>Train my first reasoning model.</p>\n",
+    "created_at": "2025-06-17T19:44:22.510944Z",
+    "updated_at": "2025-06-17T19:44:22.510944Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "643e737e3684f4eb2a127c8af6c6a579"
+  },
+  {
+    "message_id": "4fc44c54-10f0-4c63-85e0-bf1b1862fbbe",
+    "user_id": "cohort_20383_user_647540",
+    "user_name": "Steve James",
+    "goal_text": "To get an intuition for how RL techniques work and their potential",
+    "goal_html": "<p>To get an intuition for how RL techniques work and their potential</p>\n",
+    "created_at": "2025-06-17T19:44:38.806102Z",
+    "updated_at": "2025-06-17T19:44:38.806102Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "2cfde2854976848e129d15bf6712d4cb"
+  },
+  {
+    "message_id": "bb3bc44e-fb3b-4604-8ad3-27a7f7cf9721",
+    "user_id": "cohort_20383_user_655718",
+    "user_name": "Sean Harris",
+    "goal_text": "Use my learning to effectively improve and deploy an MCP server I've already proved out for my company. Possibly more if possible, hence why I'm on this course. :)",
+    "goal_html": "<p>Use my learning to effectively improve and deploy an MCP server I’ve already proved out for my company. Possibly more if possible, hence why I’m on this course. :)</p>\n",
+    "created_at": "2025-06-17T19:56:22.94908Z",
+    "updated_at": "2025-06-17T19:56:22.94908Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "5104a7d95f29f017742465e150114e17"
+  },
+  {
+    "message_id": "1f520b05-c4bd-4dc7-a9ff-c84283464a17",
+    "user_id": "cohort_20383_user_667045",
+    "user_name": "Antônio dos Santos Ramos Neto",
+    "goal_text": "I intend to understand more about how MCP and RL solutions can help my company's processes.",
+    "goal_html": "<p>I intend to understand more about how MCP and RL solutions can help my company’s processes.</p>\n",
+    "created_at": "2025-06-17T20:08:52.303567Z",
+    "updated_at": "2025-06-17T20:08:52.303567Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "7ce71b0201114293b7811f9b7b2a69f2"
+  },
+  {
+    "message_id": "a999ccae-3370-498a-a3cf-8ac6468647cf",
+    "user_id": "cohort_20383_user_666048",
+    "user_name": "Leonardo Reis",
+    "goal_text": "*   Identify problems and bottlenecks in my current Agents and Workflow implementations/patterns\n*   Understand how these new protocols can help me on my current challenges\n*   Have a hands-on experience with model training utilizing RLVR",
+    "goal_html": "<ul>\n<li>Identify problems and bottlenecks in my current Agents and Workflow implementations/patterns<br/>\n</li>\n<li>Understand how these new protocols can help me on my current challenges<br/>\n</li>\n<li>Have a hands-on experience with model training utilizing RLVR</li>\n</ul>\n",
+    "created_at": "2025-06-17T20:21:31.638274Z",
+    "updated_at": "2025-06-17T21:50:22.326641Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "b0648aa6818ebb1bfa1c587c6325ef0e"
+  },
+  {
+    "message_id": "ee59fcd5-46b1-4ec2-9c19-be3bd3b867e1",
+    "user_id": "cohort_20383_user_646757",
+    "user_name": "Adam Sioud",
+    "goal_text": "It's all about learning for me.",
+    "goal_html": "<p>It’s all about learning for me.</p>\n",
+    "created_at": "2025-06-17T20:48:23.662276Z",
+    "updated_at": "2025-06-17T20:48:23.662276Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "4f8c8e03d8da558ee1c3ab0e43e8aa7f"
+  },
+  {
+    "message_id": "9df247a6-ffb4-4efe-9dae-04b63c0cd045",
+    "user_id": "cohort_20383_user_542001",
+    "user_name": "Johnny Heo",
+    "goal_text": "RL agents",
+    "goal_html": "<p>RL agents</p>\n",
+    "created_at": "2025-06-17T20:57:04.118547Z",
+    "updated_at": "2025-06-17T20:57:04.118547Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "2043f19b07dd3e966770d67507f809c3"
+  },
+  {
+    "message_id": "09904a68-6e7d-42cb-8371-15729268844a",
+    "user_id": "cohort_20383_user_646646",
+    "user_name": "Sai Amrit Bulusu ",
+    "goal_text": "RL tuning and reward shaping.",
+    "goal_html": "<p>RL tuning and reward shaping.</p>\n",
+    "created_at": "2025-06-17T21:12:19.362369Z",
+    "updated_at": "2025-06-17T21:12:19.362369Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "860e61d683eb590ab8ce8ac306f0ebd0"
+  },
+  {
+    "message_id": "25b81fea-ae00-400c-b057-afb97b212234",
+    "user_id": "cohort_20383_user_659639",
+    "user_name": "Ricardo Mansilla",
+    "goal_text": "Create an amazing Agentic RAG solution, with multiagent orchestration and memory, create great evaluations, optimize prompts, and then distill a large model that performs very well into an inexpensive model that works just as well",
+    "goal_html": "<p>Create an amazing Agentic RAG solution, with multiagent orchestration and memory, create great evaluations, optimize prompts, and then distill a large model that performs very well into an inexpensive model that works just as well</p>\n",
+    "created_at": "2025-06-17T21:47:24.511623Z",
+    "updated_at": "2025-06-17T21:47:24.511623Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "5cda39c3af04da3f89100a720917134b"
+  },
+  {
+    "message_id": "6108d3b3-55d2-4aad-a4de-f9864851f6ac",
+    "user_id": "cohort_20383_user_647032",
+    "user_name": "Aryan Jain",
+    "goal_text": "Train an e2e RL script",
+    "goal_html": "<p>Train an e2e RL script</p>\n",
+    "created_at": "2025-06-17T21:51:06.198616Z",
+    "updated_at": "2025-06-17T21:51:06.198616Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "1c6471c534cda438390e038ce30e66c0"
+  },
+  {
+    "message_id": "3935dfd5-1ea0-4dd0-ba77-8c1c37e69ec8",
+    "user_id": "cohort_20383_user_646819",
+    "user_name": "Ron Bhattacharyay",
+    "goal_text": "Build something I'd use every day",
+    "goal_html": "<p>Build something I’d use every day</p>\n",
+    "created_at": "2025-06-17T22:16:42.053976Z",
+    "updated_at": "2025-06-17T22:16:42.053976Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "09f0c2adec2024c8924e13bab69259c7"
+  },
+  {
+    "message_id": "fc9e7afa-bd29-41da-a478-f05efc5ab81f",
+    "user_id": "cohort_20383_user_648438",
+    "user_name": "Guilherme",
+    "goal_text": "Build LLM powered programs that are reliable. Leveraging evaluation systems, tool usage and fine-tuning.",
+    "goal_html": "<p>Build LLM powered programs that are reliable. Leveraging evaluation systems, tool usage and fine-tuning.</p>\n",
+    "created_at": "2025-06-17T22:48:50.535212Z",
+    "updated_at": "2025-06-17T22:48:50.535212Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "008a74f8d1144be8c64d2c09bfd625b3"
+  },
+  {
+    "message_id": "8cd3c48d-815b-4f6c-872f-a4d97f8c457c",
+    "user_id": "cohort_20383_user_648757",
+    "user_name": "Oliver Chen",
+    "goal_text": "1) To learn best practices for agents and how to build the next iteration of smarter, longer-horizon agents with the aid of RL.  \n2) Gain a deep understanding of when to use RL and why it works. Especially interested in how can we formulate good environments and reward models that enhance the LLM's knowledge in areas that aren't just coding, math, or trivial games.",
+    "goal_html": "<p>1) To learn best practices for agents and how to build the next iteration of smarter, longer-horizon agents with the aid of RL.  <br/>\n2) Gain a deep understanding of when to use RL and why it works. Especially interested in how can we formulate good environments and reward models that enhance the LLM’s knowledge in areas that aren’t just coding, math, or trivial games.</p>\n",
+    "created_at": "2025-06-17T23:05:19.174536Z",
+    "updated_at": "2025-06-17T23:05:19.174536Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "634baddf54a7ca701a1b2af2a9f78246"
+  },
+  {
+    "message_id": "06e04127-4142-422b-9cb9-ada3986e026a",
+    "user_id": "cohort_20383_user_660063",
+    "user_name": "Diana Padilla",
+    "goal_text": "I am very excited to learn:\n\n1.  Design patterns for agents.\n    \n2.  How to decompose agentic systems for good evals.\n    \n3.  How to decompose agentic systems to define proper rewards in an RL environment.",
+    "goal_html": "<p>I am very excited to learn:<br/>\n<br/>\n1.  Design patterns for agents.<br/>\n    <br/>\n2.  How to decompose agentic systems for good evals.<br/>\n    <br/>\n3.  How to decompose agentic systems to define proper rewards in an RL environment.</p>\n",
+    "created_at": "2025-06-17T23:18:38.399738Z",
+    "updated_at": "2025-06-17T23:18:38.399738Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "98cf243a07542afb7d9ee0e90f921de6"
+  },
+  {
+    "message_id": "d55af193-51ea-4368-ba28-ef0f641f5087",
+    "user_id": "cohort_20383_user_319952",
+    "user_name": "Phlo Young",
+    "goal_text": "Using RL to improve voice agents using audio to audio models",
+    "goal_html": "<p>Using RL to improve voice agents using audio to audio models</p>\n",
+    "created_at": "2025-06-18T07:29:16.901905Z",
+    "updated_at": "2025-06-18T07:29:16.901905Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "7a42e40d90289b109bafbb312bf28997"
+  },
+  {
+    "message_id": "5f13fc68-4783-4429-938b-6873152b6578",
+    "user_id": "cohort_20383_user_649072",
+    "user_name": "Nuri Taş",
+    "goal_text": "Making multi agents work with each other",
+    "goal_html": "<p>Making multi agents work with each other</p>\n",
+    "created_at": "2025-06-18T08:15:51.326242Z",
+    "updated_at": "2025-06-18T08:15:51.326242Z",
+    "channel_name": "Reflect: Goals",
+    "submission_type": "reflection",
+    "reaction_counts": {},
+    "dedup_hash": "ea3a24940f5eb0f1759064b352870b0f"
+  }
+]
