@@ -46,7 +46,7 @@ def categorize_goal(goal_text: str) -> Set[str]:
             'implement', 'system'
         ],
 
-        'Production & Enterprise Deployment': [
+        'Enterprise (Production) Deployment': [
             'production', 'prod', 'enterprise', 'organization', 'org', 'company',
             'production-ready', 'staging', 'deploy', 'internal', 'business'
         ],
@@ -63,7 +63,7 @@ def categorize_goal(goal_text: str) -> Set[str]:
             'challenges', 'landscape', 'frontier', 'scaffolding'
         ],
 
-        'Evaluation & Optimization': [
+        'Evaluation + Optimization': [
             'evaluat', 'reward', 'feedback', 'metrics', 'performance', 'optimize',
             'judge', 'score', 'eval', 'test', 'measure', 'improve'
         ],
@@ -94,7 +94,7 @@ def categorize_goal(goal_text: str) -> Set[str]:
 
     # If no categories found, classify as general learning
     if not categories:
-        categories.add('Learning & Foundation Building')
+        categories.add('Foundation Building')
 
     return categories
 
@@ -122,9 +122,9 @@ def create_visualizations(category_counts: Dict[str, int], goal_categories: Dict
     plt.style.use('default')
     sns.set_palette("husl")
 
-    # Create figure with subplots
-    fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
-    fig.suptitle('Community Goals Analysis - Category Distribution', fontsize=16, fontweight='bold')
+    # Create figure with 2 subplots side by side
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+    fig.suptitle('Agent Engineering Goals', fontsize=18, fontweight='bold')
 
     # 1. Horizontal bar chart
     categories = list(category_counts.keys())
@@ -136,60 +136,26 @@ def create_visualizations(category_counts: Dict[str, int], goal_categories: Dict
 
     bars = ax1.barh(range(len(sorted_categories)), sorted_counts, color=sns.color_palette("husl", len(sorted_categories)))
     ax1.set_yticks(range(len(sorted_categories)))
-    ax1.set_yticklabels([cat.replace(' & ', '\n& ') for cat in sorted_categories], fontsize=9)
-    ax1.set_xlabel('Number of Goals')
-    ax1.set_title('Goals by Category (Horizontal Bar)')
+    ax1.set_yticklabels([cat.replace(' & ', '\n& ') for cat in sorted_categories], fontsize=11)
+    ax1.set_xlabel('Number of Goals', fontsize=12)
+    ax1.set_title('Goals by Category', fontsize=14, fontweight='bold')
     ax1.grid(axis='x', alpha=0.3)
 
     # Add value labels on bars
     for i, (bar, count) in enumerate(zip(bars, sorted_counts)):
-        ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height()/2,
-                str(count), va='center', fontsize=10, fontweight='bold')
+        ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height()/2, 
+                str(count), va='center', fontsize=12, fontweight='bold')
 
     # 2. Pie chart
-    ax2.pie(sorted_counts, labels=[cat.replace(' & ', '\n& ') for cat in sorted_categories],
-            autopct='%1.1f%%', startangle=90, textprops={'fontsize': 8})
-    ax2.set_title('Goals Distribution (Pie Chart)')
-
-    # 3. Vertical bar chart with different color scheme
-    bars2 = ax3.bar(range(len(sorted_categories)), sorted_counts, 
-                   color=sns.color_palette("viridis", len(sorted_categories)))
-    ax3.set_xticks(range(len(sorted_categories)))
-    ax3.set_xticklabels([cat.replace(' & ', '\n& ').replace(' ', '\n') for cat in sorted_categories],
-                       rotation=45, ha='right', fontsize=8)
-    ax3.set_ylabel('Number of Goals')
-    ax3.set_title('Goals by Category (Vertical Bar)')
-    ax3.grid(axis='y', alpha=0.3)
-
-    # Add value labels on bars
-    for bar, count in zip(bars2, sorted_counts):
-        ax3.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1,
-                str(count), ha='center', va='bottom', fontsize=10, fontweight='bold')
-
-    # 4. Category overlap analysis
-    # Count how many categories each goal belongs to
-    categories_per_goal = [len(cats) for cats in goal_categories.values()]
-    unique_counts = sorted(set(categories_per_goal))
-    overlap_counts = [categories_per_goal.count(i) for i in unique_counts]
-
-    bars3 = ax4.bar(unique_counts, overlap_counts, color=sns.color_palette("rocket", len(unique_counts)))
-    ax4.set_xlabel('Number of Categories per Goal')
-    ax4.set_ylabel('Number of Goals')
-    ax4.set_title('Category Overlap Analysis')
-    ax4.set_xticks(unique_counts)
-    ax4.grid(axis='y', alpha=0.3)
-
-    # Add value labels
-    for bar, count in zip(bars3, overlap_counts):
-        ax4.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1,
-                str(count), ha='center', va='bottom', fontsize=10, fontweight='bold')
+    ax2.pie(sorted_counts, labels=[cat.replace(' & ', '\n& ') for cat in sorted_categories], 
+            autopct='%1.1f%%', startangle=90, textprops={'fontsize': 10})
+    ax2.set_title('Goals Distribution', fontsize=14, fontweight='bold')
 
     plt.tight_layout()
-    plt.subplots_adjust(top=0.93)
+    plt.subplots_adjust(top=0.90)
 
     # Save the plot
     plt.savefig('sidequests/community-goals/outputs/goal_categories_analysis.png', dpi=300, bbox_inches='tight')
-    plt.show()
 
     # Create a detailed breakdown table
     print("\n" + "="*60)
