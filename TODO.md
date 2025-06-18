@@ -11,5 +11,6 @@ Running list of thoughts + tasks based on the Maven Agent Engineering class host
 
 ## QNA
 
-- [ ] Scan Maven chat to collect student goal sentiment.
+- [x] Scan Maven chat to collect student goal sentiment.
+    - [ ] Use a language model instead of static keyword grep to improve accuracy.
 - [ ] Categorize questions from lecture 01
