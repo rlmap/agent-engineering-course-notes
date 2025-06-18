@@ -4,7 +4,25 @@ Students were asked to reflect on their goals for the course. Most of the repons
 
 <img src="outputs/goal_categories_analysis.png" alt="Goal Categories Analysis" height="512">
 
-## Goal Categories for Sentiment Analysis
+Total participants: 86
+Total category assignments: 270
+Average categories per goal: 3.14
+
+Category                            Count    Percentage
+-------------------------------------------------------
+Foundation Building                 57           66.3%
+Prototyping                         48           55.8%
+Hands-on Technical Skills           45           52.3%
+Evaluation + Optimization           30           34.9%
+Career                              24           27.9%
+Best Practices                      22           25.6%
+Enterprise (Production) Deployment  20           23.3%
+Domain-Specific Applications        10           11.6%
+Innovation                          8             9.3%
+Networking                          6             7.0%
+
+
+## Goal Categories
 
 ### Learning & Foundation Building
 Goals focused on acquiring knowledge, understanding concepts, and building theoretical foundations in RL, MCP, and agent frameworks.
@@ -38,10 +56,10 @@ Goals about pushing boundaries, improving on existing research, and exploring cu
 
 
 
-<details>
-  <summary>Click to expand for installation instructions</summary>
-
 ## Installation
+
+<details>
+  <summary>Click to expand for installation instructions if you want to improve the script and run it yourself.</summary>
 
 ### Prerequisites
 - Python 3.10 or later
