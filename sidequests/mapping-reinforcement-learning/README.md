@@ -31,3 +31,10 @@ I asked o3 to give me its take on the field given the context of the problem and
 <img src="graphic/ai_ml_rl_landscape.png" alt="AI ML RL Landscape" height="256">
 
 Not sure how accurate this is but I think it's amazing models are able to do things like this.
+
+## Resources
+
+Maybe worth exploring:
+
+- https://dennybritz.com/posts/wildml/learning-reinforcement-learning/
+- https://davidstarsilver.wordpress.com/teaching/
