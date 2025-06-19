@@ -9,9 +9,7 @@ In my effort to visualize where reinforcement learning falls in the landscape of
 
 These two graphs are most useful to me:
 
-<img src="graphic/AI_hierarchy.svg" alt="AI Hierarchy" height="256">
-
-<img src="graphic/AI-ML-DL.svg" alt="AI ML DL" height="256">
+<img src="graphic/AI_hierarchy.svg" alt="AI Hierarchy" height="256"> <img src="graphic/AI-ML-DL.svg" alt="AI ML DL" height="256">
 
 This is about as far as I made it in designing my own graphic before I realized the field deserves deeper research:
 
