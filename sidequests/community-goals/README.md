@@ -5,22 +5,22 @@ Students were asked to reflect on their goals for the course. Most of the repons
 <img src="outputs/goal_categories_analysis.png" alt="Goal Categories Analysis" height="512">
 
 ```py
-Total participants: 86
-Total category assignments: 270
-Average categories per goal: 3.14
+Total participants: 96
+Total category assignments: 292
+Average categories per goal: 3.04
 
 Category                            Count    Percentage
 -------------------------------------------------------
-Foundation Building                 57           66.3%
-Prototyping                         48           55.8%
-Hands-on Technical Skills           45           52.3%
-Evaluation + Optimization           30           34.9%
-Career                              24           27.9%
-Best Practices                      22           25.6%
-Enterprise (Production) Deployment  20           23.3%
-Domain-Specific Applications        10           11.6%
-Innovation                          8             9.3%
-Networking                          6             7.0%
+Foundation Building                 62           64.6%
+Prototyping                         54           56.2%
+Hands-on Technical Skills           51           53.1%
+Evaluation + Optimization           31           32.3%
+Best Practices                      24           25.0%
+Career                              24           25.0%
+Enterprise (Production) Deployment  20           20.8%
+Innovation                          10           10.4%
+Domain-Specific Applications        10           10.4%
+Networking                          6             6.2%
 ```
 
 ## Goal Categories
