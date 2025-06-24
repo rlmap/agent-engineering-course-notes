@@ -1,3 +1,31 @@
+# Agent Engineering Projects
+
+Students were assigned a protoyping project to submit demonstrating their understanding of the first week of topics.
+
+<img src="outputs/project_analysis_comprehensive.png" alt="Project Analysis" height="512">
+
+```py
+Total Projects: 30
+Projects with GitHub: 23 (76.7%)
+Average Quality Score: 0.72
+Average Categories per Project: 5.4
+Average Technologies per Project: 2.0
+
+\Top Categories:
+  Web Application: 22
+  Single Agent Application: 21
+  Evaluation/Benchmarking: 16
+  API/Backend Service: 15
+  Infrastructure/Tooling: 13
+
+\Top Technologies:
+  OpenAI: 17
+  Anthropic: 12
+  Python: 7
+  PydanticAI: 4
+  JavaScript: 3
+```
+
 ## Installation
 
 <details>
