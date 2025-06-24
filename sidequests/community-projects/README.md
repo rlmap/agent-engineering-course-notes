@@ -12,10 +12,10 @@
 1. **Create a virtual environment** (from the repository root):
    ```bash
    # Windows
-   py -3.10 -m venv --prompt goalgraph venv
+   py -3.10 -m venv --prompt projectgraph venv
    
    # macOS/Linux
-   python3.10 -m venv --prompt goalgraph venv
+   python3.10 -m venv --prompt projectgraph venv
    ```
 
 2. **Activate the virtual environment**:
@@ -42,11 +42,8 @@
 Once installed, you can run any of the analysis scripts from the repository root:
 
 ```bash
-# Run goal categorization analysis
-python sidequests/community-goals/goal_categorization.py
-
-# Run goal extraction (if needed)
-python sidequests/community-goals/goal_extraction.py
+# Run goal extraction
+python sidequests/community-projects/project_extraction.py
 ```
 
 ### Dependencies Installed
