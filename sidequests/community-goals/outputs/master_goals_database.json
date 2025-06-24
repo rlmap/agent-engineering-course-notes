@@ -1,12 +1,13 @@
 {
   "metadata": {
     "created_at": "2025-06-17T05:23:19.838097",
-    "last_updated": "2025-06-18T04:36:23.826274",
-    "total_goals": 86,
-    "unique_users": 86,
+    "last_updated": "2025-06-24T00:32:14.897554",
+    "total_goals": 96,
+    "unique_users": 96,
     "processed_files": [
       "channels.json",
-      "query.json"
+      "query.json",
+      "goalchannel.json"
     ]
   },
   "goals": {
@@ -1224,6 +1225,136 @@
       "submission_type": "reflection",
       "reaction_counts": {},
       "dedup_hash": "ea3a24940f5eb0f1759064b352870b0f"
+    },
+    "625188ce-ee42-45a1-8572-d8890d77398c": {
+      "message_id": "625188ce-ee42-45a1-8572-d8890d77398c",
+      "user_id": "cohort_20383_user_661222",
+      "user_name": "Justin Bradley",
+      "goal_text": "how to chose between ICL, finetuning, RL; & the relative importance of quality data",
+      "goal_html": "<p>how to chose between ICL, finetuning, RL; &amp; the relative importance of quality data</p>\n",
+      "created_at": "2025-06-19T00:26:13.099009Z",
+      "updated_at": "2025-06-19T00:26:13.099009Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "4d8f87044f73886a496400c9defbf90c"
+    },
+    "024c04a1-6ce9-4a0b-ab10-1684698177f1": {
+      "message_id": "024c04a1-6ce9-4a0b-ab10-1684698177f1",
+      "user_id": "cohort_20383_user_662910",
+      "user_name": "Daniel Chalco",
+      "goal_text": "Be able to create agents to solve security tasks",
+      "goal_html": "<p>Be able to create agents to solve security tasks</p>\n",
+      "created_at": "2025-06-19T17:27:11.696571Z",
+      "updated_at": "2025-06-19T17:27:11.696571Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "3d2b3d88a34dce3937e5570d552cbbdb"
+    },
+    "4b99f7dc-c3bd-48b3-9584-cdc405216077": {
+      "message_id": "4b99f7dc-c3bd-48b3-9584-cdc405216077",
+      "user_id": "cohort_20383_user_647129",
+      "user_name": "Ilkka Lehto",
+      "goal_text": "Hands on experience in (multi-)agent RL with tool use.",
+      "goal_html": "<p>Hands on experience in (multi-)agent RL with tool use.</p>\n",
+      "created_at": "2025-06-19T21:09:18.255731Z",
+      "updated_at": "2025-06-19T21:09:18.255731Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "b64a001582947f03e444fb18b9e644d3"
+    },
+    "e235e0ab-701d-43fa-9774-f1c4d79e8143": {
+      "message_id": "e235e0ab-701d-43fa-9774-f1c4d79e8143",
+      "user_id": "cohort_20383_user_587673",
+      "user_name": "adrien berthélémé",
+      "goal_text": "goals:  \n\n*   learn to design and evaluate agentic systems\n    \n*   get hands-on experience shaping rewards for RL",
+      "goal_html": "<p>goals:  <br/>\n<br/>\n*   learn to design and evaluate agentic systems<br/>\n    <br/>\n*   get hands-on experience shaping rewards for RL</p>\n",
+      "created_at": "2025-06-20T15:42:54.621277Z",
+      "updated_at": "2025-06-20T15:42:54.621277Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "6d6c59527662420e9de19f453aa936f8"
+    },
+    "1659921a-dd0c-4a4e-bb7e-c404ffd4c793": {
+      "message_id": "1659921a-dd0c-4a4e-bb7e-c404ffd4c793",
+      "user_id": "cohort_20383_user_674791",
+      "user_name": "Ed G",
+      "goal_text": "Understand capabilities and limitations of frontier llm agents, and develop more hands on experience with small-scale RL",
+      "goal_html": "<p>Understand capabilities and limitations of frontier llm agents, and develop more hands on experience with small-scale RL</p>\n",
+      "created_at": "2025-06-20T21:40:16.948942Z",
+      "updated_at": "2025-06-20T21:40:16.948942Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "69921359af9e248ac17ec1b3a6867336"
+    },
+    "73b7ee62-08e0-4335-9fb7-0b344e780645": {
+      "message_id": "73b7ee62-08e0-4335-9fb7-0b344e780645",
+      "user_id": "cohort_20383_user_666218",
+      "user_name": "yikes",
+      "goal_text": "beat o3-pro operator/deepresearch with an oss model for 10x cheaper",
+      "goal_html": "<p>beat o3-pro operator/deepresearch with an oss model for 10x cheaper</p>\n",
+      "created_at": "2025-06-20T22:08:07.882803Z",
+      "updated_at": "2025-06-20T22:08:07.882803Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "b1c1a567829091e618dba701580afb70"
+    },
+    "d5ca83bd-4d8c-4e95-a9fb-96c24e918321": {
+      "message_id": "d5ca83bd-4d8c-4e95-a9fb-96c24e918321",
+      "user_id": "cohort_20383_user_528360",
+      "user_name": "Tejas Khot",
+      "goal_text": "put a lot of the principles from theory into practice and build out one project I can maintain for a while adding on new features",
+      "goal_html": "<p>put a lot of the principles from theory into practice and build out one project I can maintain for a while adding on new features</p>\n",
+      "created_at": "2025-06-21T03:12:30.085861Z",
+      "updated_at": "2025-06-21T03:12:30.085861Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "80c9ca20cde42892f35ef8dba03bcfff"
+    },
+    "2cefe9d3-44b8-472e-849d-e3592dd616fc": {
+      "message_id": "2cefe9d3-44b8-472e-849d-e3592dd616fc",
+      "user_id": "cohort_20383_user_646764",
+      "user_name": "František Heteš",
+      "goal_text": "skill up by building a bunch of agents",
+      "goal_html": "<p>skill up by building a bunch of agents</p>\n",
+      "created_at": "2025-06-21T12:37:30.293832Z",
+      "updated_at": "2025-06-21T12:37:30.293832Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "a9855cb215382f5d160b23c186e92b16"
+    },
+    "1be7d234-1639-480e-a952-62dc9d0d97d7": {
+      "message_id": "1be7d234-1639-480e-a952-62dc9d0d97d7",
+      "user_id": "cohort_20383_user_187262",
+      "user_name": "osama khan",
+      "goal_text": "build better agents",
+      "goal_html": "<p>build better agents</p>\n",
+      "created_at": "2025-06-22T21:53:52.33346Z",
+      "updated_at": "2025-06-22T21:53:52.33346Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "51311547734c053da3c880a458b22693"
+    },
+    "3a49b549-7072-4e86-89a2-c5926cddc078": {
+      "message_id": "3a49b549-7072-4e86-89a2-c5926cddc078",
+      "user_id": "cohort_20383_user_482225",
+      "user_name": "Skylar Payne",
+      "goal_text": "I do AI consulting these days, and for the past ~year I have rarely encountered problems where fine tuning made sense (due to a combination of task difficulty, cost, expertise needed, tooling maturity, etc). But it feels like theres a convergence of factors where fine tuning is making a lot more sense, and has a lot more leverage.\n\nLooking forward to learning more about what the experts are doing so I can apply them with clients!",
+      "goal_html": "<p>I do AI consulting these days, and for the past ~year I have rarely encountered problems where fine tuning made sense (due to a combination of task difficulty, cost, expertise needed, tooling maturity, etc). But it feels like theres a convergence of factors where fine tuning is making a lot more sense, and has a lot more leverage.<br/>\n<br/>\nLooking forward to learning more about what the experts are doing so I can apply them with clients!</p>\n",
+      "created_at": "2025-06-24T01:03:43.700017Z",
+      "updated_at": "2025-06-24T01:03:43.700017Z",
+      "channel_name": "Reflect: Goals",
+      "submission_type": "reflection",
+      "reaction_counts": {},
+      "dedup_hash": "d28cad426495b136efe4bad967602fe5"
     }
   },
   "user_index": {
@@ -1484,6 +1615,36 @@
     ],
     "cohort_20383_user_649072": [
       "5f13fc68-4783-4429-938b-6873152b6578"
+    ],
+    "cohort_20383_user_661222": [
+      "625188ce-ee42-45a1-8572-d8890d77398c"
+    ],
+    "cohort_20383_user_662910": [
+      "024c04a1-6ce9-4a0b-ab10-1684698177f1"
+    ],
+    "cohort_20383_user_647129": [
+      "4b99f7dc-c3bd-48b3-9584-cdc405216077"
+    ],
+    "cohort_20383_user_587673": [
+      "e235e0ab-701d-43fa-9774-f1c4d79e8143"
+    ],
+    "cohort_20383_user_674791": [
+      "1659921a-dd0c-4a4e-bb7e-c404ffd4c793"
+    ],
+    "cohort_20383_user_666218": [
+      "73b7ee62-08e0-4335-9fb7-0b344e780645"
+    ],
+    "cohort_20383_user_528360": [
+      "d5ca83bd-4d8c-4e95-a9fb-96c24e918321"
+    ],
+    "cohort_20383_user_646764": [
+      "2cefe9d3-44b8-472e-849d-e3592dd616fc"
+    ],
+    "cohort_20383_user_187262": [
+      "1be7d234-1639-480e-a952-62dc9d0d97d7"
+    ],
+    "cohort_20383_user_482225": [
+      "3a49b549-7072-4e86-89a2-c5926cddc078"
     ]
   },
   "deduplication_index": {
@@ -1572,6 +1733,16 @@
     "634baddf54a7ca701a1b2af2a9f78246": "8cd3c48d-815b-4f6c-872f-a4d97f8c457c",
     "98cf243a07542afb7d9ee0e90f921de6": "06e04127-4142-422b-9cb9-ada3986e026a",
     "7a42e40d90289b109bafbb312bf28997": "d55af193-51ea-4368-ba28-ef0f641f5087",
-    "ea3a24940f5eb0f1759064b352870b0f": "5f13fc68-4783-4429-938b-6873152b6578"
+    "ea3a24940f5eb0f1759064b352870b0f": "5f13fc68-4783-4429-938b-6873152b6578",
+    "4d8f87044f73886a496400c9defbf90c": "625188ce-ee42-45a1-8572-d8890d77398c",
+    "3d2b3d88a34dce3937e5570d552cbbdb": "024c04a1-6ce9-4a0b-ab10-1684698177f1",
+    "b64a001582947f03e444fb18b9e644d3": "4b99f7dc-c3bd-48b3-9584-cdc405216077",
+    "6d6c59527662420e9de19f453aa936f8": "e235e0ab-701d-43fa-9774-f1c4d79e8143",
+    "69921359af9e248ac17ec1b3a6867336": "1659921a-dd0c-4a4e-bb7e-c404ffd4c793",
+    "b1c1a567829091e618dba701580afb70": "73b7ee62-08e0-4335-9fb7-0b344e780645",
+    "80c9ca20cde42892f35ef8dba03bcfff": "d5ca83bd-4d8c-4e95-a9fb-96c24e918321",
+    "a9855cb215382f5d160b23c186e92b16": "2cefe9d3-44b8-472e-849d-e3592dd616fc",
+    "51311547734c053da3c880a458b22693": "1be7d234-1639-480e-a952-62dc9d0d97d7",
+    "d28cad426495b136efe4bad967602fe5": "3a49b549-7072-4e86-89a2-c5926cddc078"
   }
 }
