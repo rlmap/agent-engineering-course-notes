@@ -9,7 +9,6 @@ technology usage, and timeline trends.
 import re
 import json
 from datetime import datetime
-from urllib.parse import urlparse
 from collections import defaultdict
 from typing import List, Dict, Set, Tuple
 
@@ -527,11 +526,11 @@ def save_detailed_analysis(project_analysis: Dict, projects: List[Dict],
     print(f"Average Categories per Project: {avg_categories:.1f}")
     print(f"Average Technologies per Project: {avg_technologies:.1f}")
 
-    print(f"\Top Categories:")
+    print("\Top Categories:")
     for cat, count in sorted(category_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
         print(f"  {cat}: {count}")
 
-    print(f"\Top Technologies:")
+    print("\Top Technologies:")
     for tech, count in sorted(technology_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
         print(f"  {tech}: {count}")
 
