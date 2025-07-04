@@ -6,10 +6,12 @@ with automatic deduplication and incremental processing capabilities.
 It supports multiple JSON structures and maintains a master database.
 """
 
-import json
+import re
 import os
+import json
 import glob
 import hashlib
+from urllib.parse import urlparse
 from typing import List, Dict, Any
 from datetime import datetime
 
@@ -155,33 +157,141 @@ class ProjectExtractor:
 
     def extract_github_urls(self, text: str, attachments: List[Dict] = None) -> List[str]:
         """
-        Extract GitHub URLs from project text and attachments.
+        Extract and normalize GitHub URLs from project text and attachments.
         Args:
             text: Message text content
             attachments: List of message attachments
         Returns:
-            List of GitHub URLs found
+            List of cleaned and deduplicated GitHub URLs
         """
         github_urls = []
-        
-        # Extract from text using simple string search
+
+        # Extract from text using multiple strategies
         if "github.com" in text.lower():
+
+            # Strategy 1: Extract markdown links [text](url) - both github.com and gist.github.com
+            markdown_pattern = r'\[([^\]]+)\]\((https://(?:gist\.)?github\.com[^\)]+)\)'
+            markdown_matches = re.findall(markdown_pattern, text, re.IGNORECASE)
+            for _, url in markdown_matches:
+                github_urls.append(url)
+
+            # Strategy 2: Extract plain URLs - both github.com and gist.github.com
+            url_pattern = r'https://(?:gist\.)?github\.com[^\s\]\)]*'
+            plain_matches = re.findall(url_pattern, text, re.IGNORECASE)
+            github_urls.extend(plain_matches)
+
+            # Strategy 3: Fallback word-by-word (cleaned up)
             words = text.split()
             for word in words:
                 if "github.com" in word.lower():
-                    # Clean up common markdown formatting
-                    url = word.strip('[]()').rstrip('.,!?;')
-                    github_urls.append(url)
-        
+                    # Clean up common markdown artifacts and punctuation
+                    cleaned = re.sub(r'[\[\]()]+.*$', '', word)  # Remove ]( artifacts
+                    cleaned = cleaned.strip('.,!?;:')
+                    if cleaned.startswith('http') and 'github.com' in cleaned:
+                        github_urls.append(cleaned)
+
         # Extract from attachments
         if attachments:
             for attachment in attachments:
-                if attachment.get('title_link') and 'github.com' in attachment.get('title_link', ''):
-                    github_urls.append(attachment['title_link'])
-                if attachment.get('og_scrape_url') and 'github.com' in attachment.get('og_scrape_url', ''):
-                    github_urls.append(attachment['og_scrape_url'])
-        
-        return list(set(github_urls))  # Remove duplicates
+                for field in ['title_link', 'og_scrape_url']:
+                    url = attachment.get(field, '')
+                    if url and ('github.com' in url.lower() or 'gist.github.com' in url.lower()):
+                        github_urls.append(url)
+
+        # Normalize and deduplicate URLs
+        return self._normalize_github_urls(github_urls)
+
+    def _normalize_github_urls(self, urls: List[str]) -> List[str]:
+        """
+        Normalize GitHub URLs and remove duplicates.
+        Args:
+            urls: List of raw GitHub URLs
+        Returns:
+            List of normalized, deduplicated URLs
+        """
+        normalized_urls = set()
+
+        for url in urls:
+            if not url or not isinstance(url, str):
+                continue
+
+            # Skip malformed URLs with markdown artifacts
+            if '](' in url or url.count('http') > 1:
+                continue
+
+            # Clean up the URL
+            url = url.strip()
+
+            # Remove trailing punctuation
+            url = re.sub(r'[.,!?;:]+$', '', url)
+
+            # Ensure it starts with http
+            if not url.startswith('http'):
+                continue
+
+            try:
+                parsed = urlparse(url)
+
+                # Handle both github.com and gist.github.com
+                if parsed.netloc.lower() not in ['github.com', 'gist.github.com']:
+                    continue
+
+                # Normalize the path
+                path = parsed.path.rstrip('/')
+
+                # Reconstruct clean URL
+                if parsed.netloc.lower() == 'gist.github.com':
+                    clean_url = f"https://gist.github.com{path}"
+                else:
+                    clean_url = f"https://github.com{path}"
+
+                # Only keep URLs that look like valid GitHub repos/gists
+                if self._is_valid_github_url(clean_url):
+                    normalized_urls.add(clean_url)
+
+            except Exception:
+                # Skip invalid URLs
+                continue
+
+        return sorted(list(normalized_urls))
+
+    def _is_valid_github_url(self, url: str) -> bool:
+        """
+        Check if a GitHub URL looks valid (repo, gist, etc.).
+        Args:
+            url: Normalized GitHub URL
+        Returns:
+            True if URL appears to be a valid GitHub resource
+        """
+
+        # Handle gist URLs
+        if url.startswith('https://gist.github.com/'):
+            path = url.replace('https://gist.github.com/', '')
+            # Gist URLs should have at least username/gistid format
+            return len(path) > 10 and '/' in path
+
+        # Handle regular github URLs
+        if not url.startswith('https://github.com/'):
+            return False
+
+        path = url.replace('https://github.com/', '')
+
+        # Skip if too short or just github.com
+        if len(path) < 3:
+            return False
+
+        # Valid patterns for github.com:
+        # - username/repo
+        # - username/repo/tree/branch
+        # - username/repo/blob/branch/file
+
+        # Check for valid GitHub repo patterns
+        username_repo_pattern = r'^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+'
+
+        if re.match(username_repo_pattern, path):
+            return True
+
+        return False
 
     def extract_projects_from_messages(self, messages: List[Dict],
                                       channel_name: str = "Unknown") -> List[Dict[str, Any]]:
@@ -201,6 +311,15 @@ class ProjectExtractor:
                 if not all(key in message for key in required_fields):
                     continue
 
+                # Filter 1: Only process messages from "Prototype an Agent" channel
+                if channel_name != "Prototype an Agent":
+                    continue
+
+                # Filter 2: Only process messages with submission_type "project"
+                submission_type = message.get('submission_type', 'unknown')
+                if submission_type != 'project':
+                    continue
+
                 # Extract GitHub URLs
                 github_urls = self.extract_github_urls(
                     message['text'], 
@@ -218,6 +337,7 @@ class ProjectExtractor:
                     'updated_at': message.get('updated_at', message['created_at']),
                     'channel_name': channel_name,
                     'project_type': message.get('type', 'regular'),
+                    'submission_type': submission_type,
                     'attachments': message.get('attachments', []),
                     'reaction_counts': message.get('reaction_counts', {}),
                     'reaction_scores': message.get('reaction_scores', {}),
@@ -447,12 +567,16 @@ class ProjectExtractor:
 
         # Channel distribution and analysis
         channel_counts = {}
+        submission_type_counts = {}
         github_count = 0
         keyword_counts = {'agent': 0, 'AI': 0, 'machine learning': 0, 'deep learning': 0, 'LLM': 0}
 
         for project in projects.values():
             channel = project.get('channel_name', 'Unknown')
             channel_counts[channel] = channel_counts.get(channel, 0) + 1
+            # Track submission types
+            submission_type = project.get('submission_type', 'unknown')
+            submission_type_counts[submission_type] = submission_type_counts.get(submission_type, 0) + 1
 
             # GitHub URL analysis
             if project.get('github_urls'):
@@ -465,12 +589,13 @@ class ProjectExtractor:
                     keyword_counts[keyword] += 1
 
         self._print_statistics(total_projects, unique_users, channel_counts, 
-                              keyword_counts, github_count)
+                              keyword_counts, github_count, submission_type_counts)
 
     def _print_statistics(self, total_projects: int, unique_users: int,
                           channel_counts: Dict[str, int],
                           keyword_counts: Dict[str, int],
-                          github_count: int) -> None:
+                          github_count: int,
+                          submission_type_counts: Dict[str, int] = None) -> None:
         """
         Print formatted statistics.
         Args:
@@ -479,6 +604,7 @@ class ProjectExtractor:
             channel_counts: Distribution of projects by channel
             keyword_counts: Count of projects containing keywords
             github_count: Number of projects with GitHub URLs
+            submission_type_counts: Distribution of projects by submission type
         """
         print("\n📈 DATABASE STATISTICS:")
         print(f"   Total projects: {total_projects}")
@@ -489,6 +615,11 @@ class ProjectExtractor:
         print("\n📊 CHANNEL DISTRIBUTION:")
         for channel, count in sorted(channel_counts.items()):
             print(f"   {channel}: {count} projects")
+
+        if submission_type_counts:
+            print("\n📝 SUBMISSION TYPE DISTRIBUTION:")
+            for submission_type, count in sorted(submission_type_counts.items()):
+                print(f"   {submission_type}: {count} projects")
 
         print("\n🔤 KEYWORD ANALYSIS:")
         for keyword, count in keyword_counts.items():
